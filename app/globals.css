@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+@theme {
+  --color-navy: #1B2A4A;
+  --color-navy-dark: #0F1A2E;
+  --color-navy-light: #243b5e;
+  --color-teal: #2A9D8F;
+  --color-teal-dark: #1e7a6f;
+  --color-teal-light: #3ab5a5;
+  --color-gold: #E9C46A;
+  --color-gold-dark: #d4a843;
+  --color-gold-light: #f0d48a;
+  --color-cream: #F8FAFB;
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+:root {
+  --navy: #1B2A4A;
+  --navy-dark: #0F1A2E;
+  --teal: #2A9D8F;
+  --gold: #E9C46A;
+  --cream: #F8FAFB;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #1a1a2e;
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.stagger-1 { animation-delay: 0.1s; opacity: 0; }
+.stagger-2 { animation-delay: 0.2s; opacity: 0; }
+.stagger-3 { animation-delay: 0.3s; opacity: 0; }
+.stagger-4 { animation-delay: 0.4s; opacity: 0; }
+
+.gradient-text {
+  background: linear-gradient(135deg, var(--teal), var(--gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(27, 42, 74, 0.12);
+}
+
+.blog-content h2 { font-size: 1.5rem; font-weight: 700; margin: 2rem 0 1rem; color: var(--navy); }
+.blog-content h3 { font-size: 1.25rem; font-weight: 600; margin: 1.5rem 0 0.75rem; color: var(--navy); }
+.blog-content p { margin-bottom: 1rem; line-height: 1.8; color: #444; }
+.blog-content ul { list-style: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
+.blog-content li { margin-bottom: 0.5rem; line-height: 1.7; color: #444; }
+.blog-content a { color: var(--teal); text-decoration: underline; }
+.blog-content blockquote { border-left: 3px solid var(--teal); padding-left: 1rem; margin: 1.5rem 0; font-style: italic; color: #666; }
