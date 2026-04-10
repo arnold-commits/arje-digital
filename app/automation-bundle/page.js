@@ -2,12 +2,12 @@ import Link from 'next/link'
 import { siteConfig } from '@/lib/data'
 
 export const metadata = {
-  title: "Bookkeeper's Automation Bundle — Complete Prhhactice System",
+  title: "Bookkeeper's Automation Bundle — Complete Practice System",
   description: "Automate client onboarding, eliminate manual follow-up, and run your practice on free Google tools. One-time $197 payment with 60-day guarantee.",
 }
 
 const components = [
-  { title: 'Tax Prep Client Onboarding System', value:h '$97 value', items: 'JotForm intake templates, 4 Zapier automations, email sequences, client tracking sheet, WISP template, setup guide' },
+  { title: 'Tax Prep Client Onboarding System', value: '$97 value', items: 'JotForm intake templates, 4 Zapier automations, email sequences, client tracking sheet, WISP template, setup guide' },
   { title: 'Amazon Seller Bookkeeping Templates', value: '$47 value', items: 'P&L tracker, inventory management, Amazon fee calculator, quarterly tax estimator' },
   { title: 'Client Outreach Templates', value: '$27 value', items: 'New client acquisition emails, follow-up sequences, referral request templates' },
   { title: 'Video Tutorial Library', value: 'Included', items: 'Step-by-step setup videos, troubleshooting guides, best practices from 90+ clients' },
