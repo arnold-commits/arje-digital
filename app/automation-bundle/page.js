@@ -95,7 +95,7 @@ export default function AutomationBundlePage() {
           <p className="text-gray-400 text-sm mb-7">One-time payment · No subscriptions · 60-day guarantee</p>
           
           {/* ClickBank order button placeholder */}
-          <a href="#" className="inline-block w-full max-w-xs px-10 py-4 bg-teal text-white font-bold rounded-xl hover:bg-teal-dark transition-all text-lg shadow-lg shadow-teal/20">
+          <a href="https://arjebookkeeping.gumroad.com/l/automation-bundle" target="_blank" rel="noopener" className="inline-block w-full max-w-xs px-10 py-4 bg-teal text-white font-bold rounded-xl hover:bg-teal-dark transition-all text-lg shadow-lg shadow-teal/20">
             Get Instant Access
           </a>
           <p className="text-gray-400 text-xs mt-4">Processed securely via ClickBank · Appears as CLKBANK*COM on your statement</p>
@@ -130,7 +130,7 @@ export default function AutomationBundlePage() {
 
       {/* FINAL CTA */}
       <section className="max-w-lg mx-auto px-5 mb-16 text-center">
-        <a href="#" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-xl hover:bg-teal-dark transition-all text-lg shadow-lg shadow-teal/20">
+        <a href="https://arjebookkeeping.gumroad.com/l/automation-bundle" target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-xl hover:bg-teal-dark transition-all text-lg shadow-lg shadow-teal/20">
           Get Instant Access — $197
         </a>
         <p className="text-gray-400 text-xs mt-4">60-Day Money-Back Guarantee · Secure Checkout via ClickBank</p>
