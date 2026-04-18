@@ -24,7 +24,7 @@ export default function Home() {
               Browse Products
             </Link>
             <Link href="/automation-bundle" className="px-7 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
-              ClickBank Offer — $197
+              Get the Bundle — $197
             </Link>
           </div>
         </div>
