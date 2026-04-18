@@ -3,7 +3,7 @@ import { siteConfig } from '@/lib/data'
 
 export const metadata = {
   title: "Bookkeeper's Automation Bundle — Complete Practice System",
-  description: "Automate client onboarding, eliminate manual follow-up, and run your practice on free Google tools. One-time $197 payment with 60-day guarantee.",
+  description: "Automate client onboarding, eliminate manual follow-up, and run your practice on free Google tools. One-time $197 payment with 30-day guarantee.",
 }
 
 const components = [
@@ -17,8 +17,8 @@ const faqs = [
   { q: 'Do I need Microsoft Office?', a: 'No. Everything runs on free Google Workspace tools — Sheets, Docs, Drive, Forms. This is one of the key advantages of this system.' },
   { q: 'How long does setup take?', a: 'Most users have the core system running within 2-3 hours. The video tutorials walk you through every step.' },
   { q: 'Is this for solo practitioners or firms?', a: 'Both. The system scales whether you have 5 clients or 100+.' },
-  { q: 'What appears on my bank statement?', a: 'Your purchase will appear as CLKBANK*COM on your bank or credit card statement.' },
-  { q: 'What if it does not work for me?', a: 'You have a full 60-day money-back guarantee. Contact us for a complete refund, no questions asked.' },
+  { q: 'What appears on my bank statement?', a: 'Your purchase will appear as a Gumroad charge on your bank or credit card statement.' },
+  { q: 'What if it does not work for me?', a: 'You have a full 30-Day Money-Back Guarantee. Contact us for a complete refund, no questions asked.' },
 ]
 
 export default function AutomationBundlePage() {
@@ -28,9 +28,9 @@ export default function AutomationBundlePage() {
       <section className="relative overflow-hidden" style={{ background: 'linear-gradient(160deg, #0F1A2E 0%, #1B2A4A 55%, #1e3a5f 100%)' }}>
         <div className="max-w-3xl mx-auto px-5 py-20 text-center relative">
           <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-xs font-semibold px-4 py-2 rounded-full mb-6">
-            <span>Sold via ClickBank</span>
+            <span>Sold via Gumroad</span>
             <span className="w-1 h-1 rounded-full bg-emerald-400" />
-            <span>60-Day Guarantee</span>
+            <span>30-Day Guarantee</span>
           </div>
 
           <h1 className="font-display font-extrabold text-white text-4xl sm:text-5xl leading-[1.1] mb-5">
@@ -92,13 +92,13 @@ export default function AutomationBundlePage() {
         <div className="text-center bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-10 border-2 border-teal">
           <p className="text-gray-500 text-sm mb-1">Total value: $171+</p>
           <div className="font-display font-extrabold text-5xl text-navy mb-1">$197</div>
-          <p className="text-gray-400 text-sm mb-7">One-time payment · No subscriptions · 60-day guarantee</p>
+          <p className="text-gray-400 text-sm mb-7">One-time payment · No subscriptions · 30-Day Guarantee</p>
           
-          {/* ClickBank order button placeholder */}
+          {/* Checkout button */}
           <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="inline-block w-full max-w-xs px-10 py-4 bg-teal text-white font-bold rounded-xl hover:bg-teal-dark transition-all text-lg shadow-lg shadow-teal/20">
             Get Instant Access
           </a>
-          <p className="text-gray-400 text-xs mt-4">Processed securely via ClickBank · Appears as CLKBANK*COM on your statement</p>
+          <p className="text-gray-400 text-xs mt-4">Processed securely via Gumroad · Appears as a Gumroad charge on your statement</p>
         </div>
       </section>
 
@@ -133,14 +133,14 @@ export default function AutomationBundlePage() {
         <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-xl hover:bg-teal-dark transition-all text-lg shadow-lg shadow-teal/20">
           Get Instant Access — $197
         </a>
-        <p className="text-gray-400 text-xs mt-4">60-Day Money-Back Guarantee · Secure Checkout via ClickBank</p>
+        <p className="text-gray-400 text-xs mt-4">30-Day Money-Back Guarantee · Secure Checkout via Gumroad</p>
       </section>
 
-      {/* FOOTER COMPLIANCE (REQUIRED BY CLICKBANK) */}
+      {/* FOOTER COMPLIANCE */}
       <section className="max-w-3xl mx-auto px-5 mb-10 text-center">
         <div className="border-t border-gray-200 pt-6">
           <p className="text-gray-400 text-xs mb-1">For Product Support, please contact the seller at {siteConfig.email}</p>
-          <p className="text-gray-400 text-xs mb-3">For Order Support, please contact ClickBank at <a href="https://www.clkbank.com" className="text-teal underline">www.clkbank.com</a></p>
+          <p className="text-gray-400 text-xs mb-3">For Order Support, please contact Gumroad at <a href="https://help.gumroad.com" className="text-teal underline">help.gumroad.com</a></p>
           <p className="text-gray-300 text-[10px] leading-relaxed max-w-xl mx-auto">
             EARNINGS DISCLAIMER: Results vary based on individual effort, experience, and market conditions. The income examples shown are not guarantees of earnings. This product provides templates and tools to help organize and automate bookkeeping and tax preparation practices.
           </p>
