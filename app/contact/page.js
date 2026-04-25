@@ -15,8 +15,10 @@ export default function ContactPage() {
           { label: 'Website', value: 'arjebookkeeping.com', href: 'https://arjebookkeeping.com' },
           { label: 'Location', value: siteConfig.location },
           { label: 'Gumroad Store', value: 'arjebookkeeping.gumroad.com', href: siteConfig.social.gumroad },
-          { label: 'YouTube', value: '@ARJEBookkeeping', href: siteConfig.social.youtube },
+          { label: 'Etsy Shop', value: 'etsy.com/shop/ARJEDigitalTools', href: siteConfig.social.etsy },
+          { label: 'Amazon Author', value: 'amazon.com/author/arnolddizon', href: siteConfig.social.amazonAuthor },
           { label: 'LinkedIn', value: 'Arnold Dizon', href: siteConfig.social.linkedin },
+          { label: 'X / Twitter', value: '@arjebookkeeping', href: siteConfig.social.twitter },
           { label: 'Pinterest', value: '@arjebookkeeping', href: siteConfig.social.pinterest },
         ].map(item => (
           <div key={item.label} className="flex justify-between items-center py-4 border-b border-gray-50 last:border-0">
