@@ -5,7 +5,12 @@ import ProductCard from '@/components/ProductCard'
 
 export default function ProductsPage() {
   const [active, setActive] = useState('All')
-  const filtered = active === 'All' ? products : products.filter(p => p.category === active)
+
+  const filtered = active === 'All'
+    ? products
+    : active === 'Interactive Tools'
+      ? products.filter(p => p.tags && p.tags.includes('Interactive Tool'))
+      : products.filter(p => p.category === active)
 
   return (
     <div className="max-w-6xl mx-auto px-5 py-16">
