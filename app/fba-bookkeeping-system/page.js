@@ -9,7 +9,7 @@ export default function FBABookkeepingSystem() {
       <h1 style={{
         fontSize: '2.5rem',
         fontWeight: 700,
-        color: '#1a1a1a',
+        color: 'var(--navy)',
         lineHeight: 1.2,
         marginBottom: '1rem',
       }}>
