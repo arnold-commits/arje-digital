@@ -27,7 +27,7 @@ export default function QuarterlyEstimatedTaxes() {
 
         <ul>
           <li><strong>Q1 (Jan 1 – Mar 31):</strong> April 15, 2026</li>
-          <li><strong>Q2 (Apr 1 – May 31):</strong> June 16, 2026</li>
+          <li><strong>Q2 (Apr 1 – May 31):</strong> June 15, 2026</li>
           <li><strong>Q3 (Jun 1 – Aug 31):</strong> September 15, 2026</li>
           <li><strong>Q4 (Sep 1 – Dec 31):</strong> January 15, 2027</li>
         </ul>
@@ -134,7 +134,7 @@ export default function QuarterlyEstimatedTaxes() {
 
         <p>It is the same tool I use internally at ARJE Bookkeeping when onboarding new self-employed clients. $24.99, one-time purchase, no subscription.</p>
 
-        <p>If you want to verify your Q2 payment before the June 16 deadline, that is what it is built for.</p>
+        <p>If you want to verify your Q2 payment before the June 15 deadline, that is what it is built for.</p>
 
         <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon is a PTIN-certified tax professional and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs 90+ client returns annually and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not tax advice for your specific situation — consult a qualified tax professional for decisions involving your finances.</p>
       </div>
@@ -172,7 +172,7 @@ export default function QuarterlyEstimatedTaxes() {
             "name": "When are quarterly estimated tax payments due in 2026?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Q1 is due April 15, 2026. Q2 is due June 16, 2026. Q3 is due September 15, 2026. Q4 is due January 15, 2027."
+              "text": "Q1 is due April 15, 2026. Q2 is due June 15, 2026. Q3 is due September 15, 2026. Q4 is due January 15, 2027."
             }
           },
           {
