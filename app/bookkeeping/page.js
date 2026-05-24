@@ -166,7 +166,7 @@ export default function Bookkeeping() {
               <div className="text-gold font-display font-bold text-2xl flex-shrink-0">1.</div>
               <div>
                 <h3 className="text-white font-bold mb-1">Cleanup is capped at $2,500 of scope.</h3>
-                <p className="text-white/60 text-sm leading-relaxed">If your books need more work than that, I'll quote it separately and you decide. Most small business cleanups fit inside the cap. We'll know after the discovery call.</p>
+                <p className="text-white/60 text-sm leading-relaxed">Most small business cleanups (up to ~12 months of backlog, moderate volume) fit inside the cap. If your books need more work than that — typically 18+ months behind, 500+ transactions/month, or comingled — I'll quote it separately at standard pricing, outside this offer. We'll know after the discovery call.</p>
               </div>
             </div>
 
@@ -205,7 +205,7 @@ export default function Bookkeeping() {
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
           <p className="text-gray-400 text-sm leading-relaxed">
-            Not a fit if you need audited financials (find a CPA firm), have payroll for more than 10 employees (payroll software comes first), or you're another bookkeeper or tax pro looking for templates — I sell those separately, not bookkeeping services.
+            Not a fit if your cleanup is significantly oversized (18+ months behind with high transaction volume, or comingled personal/business books that need separation — these run $3,000+ and fall outside the $2,500 Founding cap; I still take them on at standard pricing, just not through this offer), you need audited financials (find a CPA firm), have payroll for more than 10 employees (payroll software comes first), or you're another bookkeeper or tax pro looking for templates — I sell those separately, not bookkeeping services.
           </p>
         </div>
       </section>
@@ -224,6 +224,9 @@ export default function Bookkeeping() {
           </a>
           <p className="text-gray-400 text-xs mt-6">
             Or call directly: <span className="text-navy font-bold">(702) 583-7037</span>
+          </p>
+          <p className="text-gray-400 text-xs mt-3">
+            Not ready to book? <Link href="/get-help" className="text-teal font-bold hover:underline">Tell me about your situation →</Link> Quick form, I'll get back to you with pricing transparency before scheduling.
           </p>
         </div>
       </section>
