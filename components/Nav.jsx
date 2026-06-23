@@ -35,10 +35,10 @@ export default function Nav() {
               {link.name}
             </Link>
           ))}
-          <Link href="/automation-bundle"
+          <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener"
             className="ml-2 px-4 py-2 rounded-md text-sm font-bold bg-teal text-white hover:bg-teal-dark transition-all">
             Get the Bundle
-          </Link>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -58,10 +58,10 @@ export default function Nav() {
               {link.name}
             </Link>
           ))}
-          <Link href="/automation-bundle" onClick={() => setOpen(false)}
+          <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" onClick={() => setOpen(false)}
             className="block mt-3 px-4 py-3 rounded-md text-sm font-bold bg-teal text-white text-center">
             Get the Bundle — $197
-          </Link>
+          </a>
         </div>
       )}
     </nav>

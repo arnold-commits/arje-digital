@@ -23,9 +23,9 @@ export default function Home() {
             <Link href="/products" className="px-7 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
               Browse Products
             </Link>
-            <Link href="/automation-bundle" className="px-7 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
+            <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="px-7 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
               Get the Bundle — $197
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -101,9 +101,9 @@ export default function Home() {
           <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Ready to Automate?</p>
           <h2 className="font-display font-bold text-3xl text-navy mb-4">Get the complete system for $197</h2>
           <p className="text-gray-400 mb-8 max-w-md mx-auto">One-time payment. No subscriptions. 60-day money-back guarantee. Start onboarding clients on autopilot this weekend.</p>
-          <Link href="/automation-bundle" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
+          <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
             Get the Automation Bundle →
-          </Link>
+          </a>
         </div>
       </section>
     </>

@@ -21,10 +21,23 @@ export default function Footer() {
           {/* Pages */}
           <div>
             <h4 className="text-white/50 text-xs font-bold tracking-widest uppercase mb-4">Pages</h4>
-            {['Home', 'Products', 'Automation Bundle', 'Blog', 'About', 'Affiliates', 'Contact'].map(pg => (
-              <Link key={pg} href={pg === 'Home' ? '/' : pg === 'Automation Bundle' ? '/automation-bundle' : `/${pg.toLowerCase()}`}
+            {[
+              { label: 'Home', href: '/' },
+              { label: 'Products', href: '/products' },
+              { label: 'Automation Bundle', href: 'https://arjebookkeeping.gumroad.com/l/ultimate-bundle', external: true },
+              { label: 'Blog', href: '/blog' },
+              { label: 'About', href: '/about' },
+              { label: 'Affiliates', href: '/affiliates' },
+              { label: 'Contact', href: '/contact' },
+            ].map(pg => pg.external ? (
+              <a key={pg.label} href={pg.href} target="_blank" rel="noopener"
                 className="block text-white/50 text-sm hover:text-white/80 transition-colors mb-2">
-                {pg}
+                {pg.label}
+              </a>
+            ) : (
+              <Link key={pg.label} href={pg.href}
+                className="block text-white/50 text-sm hover:text-white/80 transition-colors mb-2">
+                {pg.label}
               </Link>
             ))}
           </div>
