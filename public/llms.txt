@@ -1,0 +1,30 @@
+# ARJE Digital / ARJE Bookkeeping & Tax Services
+
+> Forensic Amazon FBA and eBay bookkeeping, cleanup, and tax services for
+> e-commerce sellers, plus digital templates and SaaS tools for bookkeepers
+> and tax preparers. Founder: Arnold Dizon, PTIN-certified tax professional
+> and QuickBooks Online ProAdvisor. Henderson, Nevada.
+
+## Services
+- [Get Help With Your Books](https://arjebookkeeping.com/get-help/): Cleanup
+  quotes, monthly bookkeeping, and diagnosis-first engagements for Amazon and
+  eBay sellers. Fixed-fee foundation diagnosis before any cleanup is quoted.
+
+## Guides
+- [Amazon FBA Bookkeeping: The Complete Guide](https://arjebookkeeping.com/fba-bookkeeping-system/): How FBA sellers should handle settlements, COGS, fees, reimbursements, and taxes.
+- [How Much Should I Pay in Quarterly Estimated Taxes?](https://arjebookkeeping.com/quarterly-estimated-taxes/): Quarterly estimated tax calculation, safe harbor rules, and 2026 deadlines for self-employed filers and Amazon sellers.
+
+## Products
+- [Tax Prep Client Onboarding System](https://arjebookkeeping.gumroad.com/l/taxprepsetup): $97. JotForm templates, 4 Zapier automations, email sequences, client tracking, and WISP template — onboard new tax clients in under 10 minutes.
+- [Amazon Seller Bookkeeping Templates](https://arjebookkeeping.gumroad.com/l/eercnn): $47. P&L tracker, inventory management, fee calculator, and quarterly tax estimator built specifically for FBA sellers.
+- [BOS Starter Kit](https://arjebookkeeping.gumroad.com): $49. Business Operating System foundation — folder structure, BOS tracker spreadsheet, month-end close checklist, and quick start guide.
+- [Tax Prep Client Tracking Spreadsheet](https://arjebookkeeping.gumroad.com/l/pwvlyz): $27. Google Sheets client tracker with status, deadlines, document checklist, and fee tracking.
+- [Tax Prep Email Templates](https://arjebookkeeping.gumroad.com/l/fvmjdu): $19. Professional email templates for every stage of the tax prep client relationship.
+- [FBA Reimbursement Calculator](https://arjebookkeeping.com/products/fba-reimbursement-calculator/): $19.99. Calculate exactly what Amazon owes you in lost, damaged, or destroyed FBA inventory — claim-ready summaries for Seller Central.
+- [Bookkeeper Capacity Calculator](https://arjebookkeeping.com/products/bookkeeper-capacity-calculator/): $19.99. Find your real client ceiling in 60 seconds — models hours per client, hours per week, and target revenue.
+- [Quarterly Estimated Tax Calculator](https://arjebookkeeping.com/products/quarterly-estimated-tax-calculator/): $24.99. Estimate Q1–Q4 federal estimated taxes, including self-employment tax and safe harbor comparison.
+- [Monthly Close Checklist Calculator](https://arjebookkeeping.com/products/monthly-close-checklist-calculator/): $19.99. Time-budgets each step of the monthly close cycle for staff capacity planning.
+- [Solo CPA Client Capacity Calculator](https://arjebookkeeping.com/products/solo-cpa-client-capacity-calculator/): $29. Models compliance vs advisory revenue mix, tax-season hour spikes, and attest practice constraints.
+
+## Blog
+- [ARJE Blog](https://blog.arjebookkeeping.com/): Practical tax and bookkeeping operations for e-commerce sellers and accounting professionals.

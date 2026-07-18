@@ -1,6 +1,8 @@
 {
   "redirects": [
     { "source": "/automation-bundle", "destination": "/products/", "permanent": true },
-    { "source": "/automation-bundle/", "destination": "/products/", "permanent": true }
+    { "source": "/automation-bundle/", "destination": "/products/", "permanent": true },
+    { "source": "/arnold-dizon", "destination": "/about/", "permanent": true },
+    { "source": "/arnold-dizon/", "destination": "/about/", "permanent": true }
   ]
 }

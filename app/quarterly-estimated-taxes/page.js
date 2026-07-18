@@ -34,6 +34,12 @@ export default function QuarterlyEstimatedTaxes() {
 
         <p>Miss a payment and the IRS charges underpayment penalties calculated as interest on the shortfall, compounded daily. The rate is tied to the federal short-term rate plus 3 percentage points and currently sits at <strong>7% annualized</strong> for 2026 (it resets quarterly, so verify the current rate on irs.gov if you are calculating exact penalty exposure).</p>
 
+        <h2>How should Amazon sellers calculate quarterly estimated taxes?</h2>
+
+        <p>If you sell on Amazon, your estimated-tax base is your <strong>net profit</strong> — gross sales minus cost of goods sold, FBA and referral fees, advertising, and your other business expenses. It is not your settlement deposits, and it is not the revenue number on your Seller Central dashboard. Amazon’s deposits arrive net of fees, refunds, and reserve holds, so a seller who pays quarterly taxes off deposits is using a number that is wrong in both directions at once.</p>
+
+        <p>Getting the net-profit number right is a bookkeeping problem before it is a tax problem: each settlement has to be decomposed into sales, fees, and refunds so the year-to-date profit you annualize in Step 1 below is real. If your Amazon books aren’t there yet, start with the <a href="/fba-bookkeeping-system/">Amazon FBA Bookkeeping guide</a> — then come back and run the five steps.</p>
+
         <h2>How to Calculate What You Actually Owe Each Quarter</h2>
 
         <p>Here is the method I use with clients at ARJE Bookkeeping, broken down into five concrete steps.</p>
@@ -128,6 +134,9 @@ export default function QuarterlyEstimatedTaxes() {
         <h3>What happens if I just do not pay quarterly?</h3>
         <p>The IRS charges underpayment penalty as interest on the shortfall from each quarter's due date until you pay, compounded daily. At 7% annualized for 2026, a $2,500 missed Q1 payment costs about $175 in penalties by tax day. Over a full year of skipped quarters, penalties on a $10,000 tax liability can exceed $700. Not catastrophic, but it compounds every year you skip and the rate resets quarterly, so it can get worse.</p>
 
+        <h3>Do Amazon sellers pay quarterly estimated taxes on gross sales or net profit?</h3>
+        <p>Net profit. Your estimated-tax base is gross sales minus COGS, FBA and referral fees, advertising, and other business expenses — never your settlement deposits, which arrive net of fees, refunds, and reserve holds. Decompose each settlement in your bookkeeping first so the profit number you annualize is real.</p>
+
         <h2>Stop Guessing. Calculate Your Actual Quarterly Number.</h2>
 
         <p>Walking through the math above takes most people 45 minutes to an hour, longer if it is your first time. I built the <a href="https://arjebookkeeping.gumroad.com/l/quarterly-estimated-tax-calculator">Quarterly Estimated Tax Calculator</a> to run the full calculation in about three minutes — including federal income tax, self-employment tax, safe harbor comparison, and state tax lookup for your jurisdiction.</p>
@@ -135,6 +144,8 @@ export default function QuarterlyEstimatedTaxes() {
         <p>It is the same tool I use internally at ARJE Bookkeeping when onboarding new self-employed clients. $24.99, one-time purchase, no subscription.</p>
 
         <p>If you want to verify your Q2 payment before the June 15 deadline, that is what it is built for.</p>
+
+        <p>And if the problem is upstream — books that can’t produce a trustworthy net-profit number in the first place — <a href="/get-help/">get help with your books here</a>. Diagnosis-first, fixed-fee assessment before any cleanup is quoted.</p>
 
         <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon is a PTIN-certified tax professional and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs 90+ client returns annually and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not tax advice for your specific situation — consult a qualified tax professional for decisions involving your finances.</p>
       </div>
@@ -181,6 +192,14 @@ export default function QuarterlyEstimatedTaxes() {
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "The IRS charges an underpayment penalty calculated as interest on the shortfall from each quarter's due date, compounded daily. At 7% annualized for 2026, a $2,500 missed Q1 payment costs about $175 in penalties by tax day. The rate resets quarterly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do Amazon sellers pay quarterly estimated taxes on gross sales or net profit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Net profit. Your estimated-tax base is gross sales minus COGS, FBA and referral fees, advertising, and other business expenses — never your settlement deposits, which arrive net of fees, refunds, and reserve holds."
             }
           }
         ]

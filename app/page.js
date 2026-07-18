@@ -17,11 +17,14 @@ export default function Home() {
             <span className="gradient-text">Start scaling.</span>
           </h1>
           <p className="animate-fade-up stagger-3 text-white/60 text-lg leading-relaxed max-w-xl mx-auto mb-10">
-            Digital templates, automations, and SaaS tools for bookkeepers, tax preparers, and Amazon FBA sellers. 100% Google Workspace. Zero monthly software fees.
+            Bookkeeping, cleanup, and tax help for Amazon FBA sellers — plus templates and automations for bookkeepers and tax preparers. 100% Google Workspace.
           </p>
           <div className="animate-fade-up stagger-4 flex flex-wrap gap-4 justify-center">
             <Link href="/products" className="px-7 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
               Browse Products
+            </Link>
+            <Link href="/get-help" className="px-7 py-4 bg-gold text-navy font-bold rounded-lg hover:opacity-90 transition-all text-sm tracking-wide">
+              Get Help With Your Books
             </Link>
             <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="px-7 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
               Get the Bundle — $197
@@ -82,16 +85,21 @@ export default function Home() {
         <h2 className="font-display font-bold text-3xl text-navy mb-10 text-center">Three audiences, one mission</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
+            { title: 'Amazon FBA Sellers', desc: 'Forensic cleanup, settlement reconciliation to the cent, and quarterly tax estimates — from a PTIN-certified pro.', icon: '📦', href: '/fba-bookkeeping-system' },
             { title: 'Bookkeepers & CPAs', desc: 'Automate client onboarding, standardize workflows, and scale to 50+ clients without hiring staff.', icon: '📊' },
             { title: 'Tax Preparers', desc: 'Streamline intake, track documents, and eliminate the manual chase every tax season.', icon: '📋' },
-            { title: 'Amazon FBA Sellers', desc: 'Track profitability, manage inventory costs, and estimate quarterly taxes with purpose-built templates.', icon: '📦' },
-          ].map(item => (
-            <div key={item.title} className="bg-white rounded-xl p-8 border border-gray-100 text-center card-hover">
-              <div className="text-4xl mb-4">{item.icon}</div>
-              <h3 className="font-display font-bold text-lg text-navy mb-2">{item.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
-            </div>
-          ))}
+          ].map(item => {
+            const card = (
+              <div className="bg-white rounded-xl p-8 border border-gray-100 text-center card-hover h-full">
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="font-display font-bold text-lg text-navy mb-2">{item.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            )
+            return item.href
+              ? <Link key={item.title} href={item.href}>{card}</Link>
+              : <div key={item.title}>{card}</div>
+          })}
         </div>
       </section>
 
