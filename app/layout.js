@@ -4,9 +4,9 @@ import Footer from '@/components/Footer'
 import { siteConfig } from '@/lib/data'
 import { Analytics } from '@vercel/analytics/next';
 export const metadata = {
-  title: { default: `${siteConfig.name} — Digital Tools for Accounting Professionals`, template: `%s | ${siteConfig.name}` },
+  title: { default: `${siteConfig.name} — Amazon FBA Bookkeeping & Tools for Accounting Pros`, template: `%s | ${siteConfig.name}` },
   description: siteConfig.description,
-  keywords: ['bookkeeper templates', 'tax prep automation', 'Amazon FBA bookkeeping', 'Google Sheets templates', 'bookkeeping systems', 'ARJE Digital'],
+  keywords: ['Amazon FBA bookkeeping', 'FBA accounting', 'Amazon seller bookkeeping', 'bookkeeper templates', 'tax prep automation', 'ARJE Digital'],
 }
 
 export default function RootLayout({ children }) {

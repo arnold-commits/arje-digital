@@ -23,6 +23,7 @@ export default function Footer() {
             <h4 className="text-white/50 text-xs font-bold tracking-widest uppercase mb-4">Pages</h4>
             {[
               { label: 'Home', href: '/' },
+              { label: 'Get Help With Your Books', href: '/get-help' },
               { label: 'Products', href: '/products' },
               { label: 'Automation Bundle', href: 'https://arjebookkeeping.gumroad.com/l/ultimate-bundle', external: true },
               { label: 'Blog', href: '/blog' },
