@@ -101,7 +101,7 @@ export default function FBABookkeepingSystem() {
 
         <p><strong>A books audit</strong> verifies your accounting records against source documents: do the settlements in your books match the raw settlement files, and do the deposits tie to your bank statement? If your books have never been reconciled settlement-by-settlement, this is the audit you need — it’s where <a href="/get-help/">a professional cleanup</a> starts.</p>
 
-        <p><strong>A reimbursement audit</strong> hunts down inventory Amazon lost, damaged, or destroyed without crediting you. It has an 18-month eligibility window and produces recoverable cash — the <a href="/products/fba-reimbursement-calculator/">FBA Reimbursement Calculator</a> below walks that process.</p>
+        <p><strong>A reimbursement audit</strong> hunts down inventory Amazon lost, damaged, or destroyed without crediting you. It runs on a 60-day filing window under Amazon's current rules — losses expire fast — and produces recoverable cash — the <a href="/products/fba-reimbursement-calculator/">FBA Reimbursement Calculator</a> below walks that process.</p>
 
         <h2>How do you reconcile Amazon settlements in QuickBooks Online?</h2>
 
@@ -127,7 +127,7 @@ export default function FBABookkeepingSystem() {
 
         <h2>Claim your FBA reimbursements first</h2>
 
-        <p>Before you invest in a full bookkeeping setup, check the money Amazon may already owe you. Most FBA sellers are leaving cash on the table from inventory Amazon has lost or damaged. The <a href="/products/fba-reimbursement-calculator/">FBA Reimbursement Calculator</a> ($19.99) walks you through the 18-month eligibility window, classifies losses by type, and produces a claim-ready summary you can submit through Seller Central.</p>
+        <p>Before you invest in a full bookkeeping setup, check the money Amazon may already owe you. Most FBA sellers are leaving cash on the table from inventory Amazon has lost or damaged. The <a href="/products/fba-reimbursement-calculator/">FBA Reimbursement Calculator</a> ($19.99) walks you through Amazon's 60-day claim window, classifies losses by type, and produces a claim-ready summary you can submit through Seller Central.</p>
 
         <p>Most sellers find $1,000–$3,000 they didn’t know Amazon owed them on the first pass. That’s working capital that funds the rest of your bookkeeping setup.</p>
 
