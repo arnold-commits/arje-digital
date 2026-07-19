@@ -55,6 +55,25 @@ export default function GetHelpPage() {
         </ol>
       </section>
 
+      {/* Foundation Diagnosis nudge — sits above the form, doesn't touch it */}
+      <section className="max-w-4xl mx-auto px-6 pb-8">
+        <a
+          href="/foundation-diagnosis/"
+          className="block rounded-2xl border border-[#2ec4b6]/30 bg-[#2ec4b6]/5 p-5 sm:p-6 transition-colors hover:border-[#2ec4b6]/60"
+        >
+          <p className="font-semibold text-[#1a1a2e]">
+            Books behind, or &ldquo;fixed&rdquo; before and still wrong?
+          </p>
+          <p className="mt-1 text-sm text-[#1a1a2e]/70">
+            Start with the Foundation Diagnosis — a $495 fixed-fee, read-only
+            forensic pass, credited toward the cleanup.{" "}
+            <span className="font-semibold text-[#2ec4b6] whitespace-nowrap">
+              Start the Foundation Diagnosis →
+            </span>
+          </p>
+        </a>
+      </section>
+
       {/* Form */}
       <section className="max-w-4xl mx-auto px-2 sm:px-6 pb-20">
         <div className="rounded-2xl border border-[#1a1a2e]/10 bg-white p-2 sm:p-4 shadow-sm">

@@ -147,6 +147,11 @@ export default function FBABookkeepingSystem() {
 
         <p>For ongoing month-to-month tracking, ShelfKeeper is being built specifically for Amazon FBA sellers: COGS by SKU, automatic FBA fee categorization, and a real profit dashboard that accounts for every Amazon-specific cost category. ShelfKeeper is currently in private beta — <a href="https://arjebookkeeping.gumroad.com/l/zwuld">join the free waitlist</a> for early access when it launches.</p>
 
+        <div style={{ background: 'var(--cream)', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.75rem 1.75rem 1.5rem', margin: '2.75rem 0' }}>
+          <h3 style={{ marginTop: 0 }}>Think your books have this problem?</h3>
+          <p style={{ marginBottom: 0 }}>The <a href="/foundation-diagnosis/">Foundation Diagnosis</a> is the fixed-fee first step — $495, credited toward the cleanup. A read-only forensic pass that tells you exactly what’s wrong before anyone quotes the fix. <a href="/foundation-diagnosis/">Start the diagnosis →</a></p>
+        </div>
+
         <h2>Frequently Asked Questions</h2>
 
         {faqs.map(f => (
