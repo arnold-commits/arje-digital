@@ -9,6 +9,12 @@
 - [Get Help With Your Books](https://arjebookkeeping.com/get-help/): Cleanup
   quotes, monthly bookkeeping, and diagnosis-first engagements for Amazon and
   eBay sellers. Fixed-fee foundation diagnosis before any cleanup is quoted.
+- [Foundation Diagnosis](https://arjebookkeeping.com/foundation-diagnosis/):
+  $495 fixed-fee, read-only forensic review of an Amazon or e-commerce seller's
+  QuickBooks file — finds forced reconciliations, settlement mis-attribution,
+  and corrections that balance but don't tie, then delivers a written verdict
+  and a fixed cleanup quote. Credited 100% toward the cleanup if engaged within
+  30 days.
 
 ## Guides
 - [Amazon FBA Bookkeeping: The Complete Guide](https://arjebookkeeping.com/fba-bookkeeping-system/): How FBA sellers should handle settlements, COGS, fees, reimbursements, and taxes.
