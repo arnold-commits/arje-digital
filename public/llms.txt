@@ -34,3 +34,4 @@
 
 ## Blog
 - [ARJE Blog](https://blog.arjebookkeeping.com/): Practical tax and bookkeeping operations for e-commerce sellers and accounting professionals.
+- [Amazon Settlement Reconciliation: Why Balanced Books Can Still Be Wrong](https://blog.arjebookkeeping.com/amazon-settlement-reconciliation-balanced-but-wrong/): Why a reconciliation that balances can still be wrong, and why quarantining a discrepancy beats forcing it to zero.

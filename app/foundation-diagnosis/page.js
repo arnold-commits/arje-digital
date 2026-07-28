@@ -204,7 +204,7 @@ export default function FoundationDiagnosis() {
           <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Proof</p>
           <h2 className="font-display font-bold text-3xl text-navy mb-6">The standard the diagnosis is built from</h2>
           <div className="space-y-5 text-[#444] leading-[1.8]">
-            <p>Recent engagement, anonymized: a five-marketplace Amazon seller (US, Canada, Mexico, Brazil, plus eBay) whose books needed full reconstruction. We rebuilt the entire settlement spine from the raw Amazon settlement files, closed a full calendar year of bank reconciliations to the penny, found a six-figure discrepancy hidden in a clearing account — and instead of plugging it to make it disappear, quarantined and documented it so the rebuilt books stayed clean and auditable.</p>
+            <p>Recent engagement, anonymized: a five-marketplace Amazon seller (US, Canada, Mexico, Brazil, plus eBay) whose books needed full reconstruction. We rebuilt the entire settlement spine from the raw Amazon settlement files, closed a full calendar year of bank reconciliations to the penny, found a five-figure discrepancy hidden in a clearing account — and instead of plugging it to make it disappear, quarantined and documented it so the rebuilt books stayed clean and auditable.</p>
             <p>That&rsquo;s the standard the diagnosis is built from.</p>
           </div>
           <div className="mt-8 rounded-xl bg-cream border border-gray-100 p-6">
