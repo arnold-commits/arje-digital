@@ -115,7 +115,7 @@ export default function FBABookkeepingSystem() {
 
         <p><strong>4. Roll the reserve forward.</strong> The reserve Amazon holds this settlement should reappear as the prior balance on the next one. If the chain breaks, a settlement is missing or misattributed — the reserve roll-forward is a built-in completeness check most bookkeepers never use.</p>
 
-        <p>Recent engagement, to make it concrete: a multi-marketplace FBA seller (US/CA/MX plus eBay) whose books needed full reconstruction — a full calendar year rebuilt, every settlement reconciled to the cent against the bank statement, and a six-figure discrepancy found hiding in a clearing account, quarantined and documented rather than plugged. That last part matters: books that merely <em>balance</em> can still be wrong, and forcing them to balance buries the problem where the next preparer — or the IRS — finds it.</p>
+        <p>Recent engagement, to make it concrete: a multi-marketplace FBA seller (US/CA/MX plus eBay) whose books needed full reconstruction — a full calendar year rebuilt, every settlement reconciled to the cent against the bank statement, and a five-figure discrepancy found hiding in a clearing account, quarantined and documented rather than plugged. That last part matters: books that merely <em>balance</em> can still be wrong, and forcing them to balance buries the problem where the next preparer — or the IRS — finds it. <a href="https://blog.arjebookkeeping.com/amazon-settlement-reconciliation-balanced-but-wrong/">Read more on why balanced books can still be wrong.</a></p>
 
         <h2>Should you use A2X, Link My Books, or do it manually?</h2>
 
