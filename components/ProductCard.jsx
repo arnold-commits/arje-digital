@@ -31,7 +31,7 @@ export default function ProductCard({ product }) {
         <div className="flex items-center justify-between pt-4 border-t border-gray-50">
           <span className="font-display font-bold text-2xl text-navy">{product.price}</span>
           <div className="flex items-center gap-2">
-            <span className="text-xs px-2 py-1 bg-gray-50 rounded text-gray-400 font-medium">via {product.platform}</span>
+            <span className="text-xs px-2 py-1 bg-gray-50 rounded text-gray-500 font-medium">via {product.platform}</span>
             <span className="text-teal text-sm font-semibold group-hover:translate-x-1 transition-transform">→</span>
           </div>
         </div>

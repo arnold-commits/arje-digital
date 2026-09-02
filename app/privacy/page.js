@@ -6,7 +6,7 @@ export default function PrivacyPage() {
   return (
     <div className="max-w-3xl mx-auto px-5 py-16">
       <h1 className="font-display font-bold text-3xl text-navy mb-6">Privacy Policy</h1>
-      <p className="text-gray-400 text-sm mb-8">Last updated: April 2026</p>
+      <p className="text-gray-500 text-sm mb-8">Last updated: April 2026</p>
       <div className="prose prose-gray max-w-none text-sm text-gray-600 leading-relaxed space-y-4">
         <p>ARJE Digital (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;), a DBA of ARJE Bookkeeping & Tax Services, operates the website arjebookkeeping.com. This page informs you of our policies regarding the collection, use, and disclosure of personal information when you use our site or purchase our products.</p>
         <h2 className="font-display font-bold text-lg text-navy pt-4">Information We Collect</h2>

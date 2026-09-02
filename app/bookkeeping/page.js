@@ -85,7 +85,7 @@ export default function Bookkeeping() {
         <div className="max-w-2xl mx-auto bg-white rounded-xl p-6 text-center border border-gray-100 shadow-sm animate-fade-up stagger-1">
           <p className="text-gold text-xs font-bold tracking-[3px] uppercase mb-2">Spots Remaining</p>
           <div className="font-display font-extrabold text-5xl text-navy">{spotsRemaining}<span className="text-gray-300 text-3xl"> / 10</span></div>
-          <p className="text-gray-400 text-xs font-medium mt-2 tracking-wide uppercase">Updated daily · First come, first served</p>
+          <p className="text-gray-500 text-xs font-medium mt-2 tracking-wide uppercase">Updated daily · First come, first served</p>
         </div>
       </section>
 
@@ -104,7 +104,7 @@ export default function Bookkeeping() {
       <section id="tiers" className="max-w-6xl mx-auto px-5 py-10 mb-10">
         <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3 text-center">Two Tiers</p>
         <h2 className="font-display font-bold text-3xl text-navy mb-2 text-center">Pick the level of service you want</h2>
-        <p className="text-gray-400 mb-12 max-w-lg mx-auto text-center">Both tiers include initial cleanup. Both lock your rate for 12 months. The difference is how much of the work you keep.</p>
+        <p className="text-gray-500 mb-12 max-w-lg mx-auto text-center">Both tiers include initial cleanup. Both lock your rate for 12 months. The difference is how much of the work you keep.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {tiers.map(tier => (
@@ -128,7 +128,7 @@ export default function Bookkeeping() {
               <div className="mb-6 pb-6 border-b border-gray-100">
                 <div className="font-display font-extrabold text-4xl text-navy">{tier.foundingPrice}</div>
                 <div className="text-gray-500 text-sm mt-1">6 months prepaid · {tier.effectiveMonthly}</div>
-                <div className="text-gray-400 text-xs mt-2">
+                <div className="text-gray-500 text-xs mt-2">
                   <span className="line-through">{tier.standardRate}</span>
                   <span className="text-gold font-bold ml-2">{tier.savings}</span>
                 </div>
@@ -157,7 +157,7 @@ export default function Bookkeeping() {
           ))}
         </div>
 
-        <p className="text-center text-gray-400 text-xs mt-8 max-w-2xl mx-auto">
+        <p className="text-center text-gray-500 text-xs mt-8 max-w-2xl mx-auto">
           Tier 3+ (bookkeeping + annual tax return bundled, $695/mo) is available for new clients but not part of the founding offer — annual tax pricing runs on a different cycle.
         </p>
       </section>
@@ -211,7 +211,7 @@ export default function Bookkeeping() {
         </div>
 
         <div className="mt-12 text-center max-w-2xl mx-auto">
-          <p className="text-gray-400 text-sm leading-relaxed">
+          <p className="text-gray-500 text-sm leading-relaxed">
             Not a fit if your cleanup is significantly oversized (18+ months behind with high transaction volume, or comingled personal/business books that need separation — these run $3,000+ and fall outside the $2,500 Founding cap; I still take them on at standard pricing, just not through this offer), you need audited financials (find a CPA firm), have payroll for more than 10 employees (payroll software comes first), or you're another bookkeeper or tax pro looking for templates — I sell those separately, not bookkeeping services.
           </p>
         </div>
@@ -222,14 +222,14 @@ export default function Bookkeeping() {
         <div className="bg-white rounded-2xl p-10 md:p-14 border border-gray-100 shadow-sm">
           <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Next Step</p>
           <h2 className="font-display font-bold text-3xl text-navy mb-4">Book a 30-minute discovery call</h2>
-          <p className="text-gray-400 mb-8 max-w-md mx-auto">We'll look at your books together. I'll give you a straight answer on whether your cleanup fits inside the $2,500 cap. You decide if you want to move forward. No pitch, no pressure.</p>
+          <p className="text-gray-500 mb-8 max-w-md mx-auto">We'll look at your books together. I'll give you a straight answer on whether your cleanup fits inside the $2,500 cap. You decide if you want to move forward. No pitch, no pressure.</p>
           <a
             href="mailto:arnold@arjebookkeeping.com?subject=Founding%20Bookkeeping%20Client%20Discovery%20Call"
             className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide"
           >
             Email Arnold →
           </a>
-          <p className="text-gray-400 text-xs mt-6">
+          <p className="text-gray-500 text-xs mt-6">
             Not ready to book? <Link href="/get-help" className="text-teal font-bold hover:underline">Tell me about your situation →</Link> Quick form, I'll get back to you with pricing transparency before scheduling.
           </p>
         </div>

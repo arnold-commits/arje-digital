@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Pages */}
           <div>
-            <h4 className="text-white/50 text-xs font-bold tracking-widest uppercase mb-4">Pages</h4>
+            <h2 className="text-white/50 text-xs font-bold tracking-widest uppercase mb-4">Pages</h2>
             {[
               { label: 'Home', href: '/' },
               { label: 'Get Help With Your Books', href: '/get-help' },
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Platforms */}
           <div>
-            <h4 className="text-white/50 text-xs font-bold tracking-widest uppercase mb-4">Shop On</h4>
+            <h2 className="text-white/50 text-xs font-bold tracking-widest uppercase mb-4">Shop On</h2>
             {platforms.map(p => (
               <a key={p.name} href={p.href} target="_blank" rel="noopener noreferrer"
                 className="block text-white/50 text-sm hover:text-white/80 transition-colors mb-2">

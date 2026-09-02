@@ -213,7 +213,7 @@ export default function FoundationDiagnosis() {
               loading="lazy"
               className="w-full h-auto rounded-2xl border border-gray-100 shadow-sm"
             />
-            <figcaption className="text-center text-gray-400 text-xs mt-4 leading-relaxed">
+            <figcaption className="text-center text-gray-500 text-xs mt-4 leading-relaxed">
               Three of the tells, in plain language. Check any one of them in your own file before you pay anyone to &ldquo;fix&rdquo; it again.
             </figcaption>
           </figure>
