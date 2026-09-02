@@ -1,4 +1,5 @@
 import { siteConfig } from '@/lib/data'
+import TrackedLink from '@/components/TrackedLink'
 
 export const metadata = {
   title: "About ARJE Digital",
@@ -59,6 +60,18 @@ export default function AboutPage() {
               Based in Henderson, Nevada. Family-owned. Bootstrapped. Built by practitioners, for practitioners.
             </p>
           </div>
+        </div>
+
+        {/* The service lane, for sellers who land here from a share or a search on the name */}
+        <div className="rounded-xl p-8 border border-teal/30 bg-teal/5">
+          <h2 className="font-display font-bold text-xl text-navy mb-3">Working with Amazon sellers</h2>
+          <p className="text-gray-600 leading-relaxed mb-4">
+            The practice side of ARJE is forensic bookkeeping for Amazon and multi-marketplace sellers: settlement reconstruction to the cent, cleanup of books that were &ldquo;fixed&rdquo; once and are still wrong, and tax prep on top of books that can actually be filed. The first step is always the same and it never touches your file.
+          </p>
+          <p className="text-gray-600 leading-relaxed">
+            <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'about' }} className="text-teal font-bold hover:underline">Foundation Diagnosis — $495, read-only, credited toward the cleanup →</TrackedLink>
+            <span className="text-gray-400 text-sm block mt-2">Not sure yet? <a href="/get-help/" className="text-teal hover:underline">Tell us where your books stand</a>.</span>
+          </p>
         </div>
       </div>
     </div>

@@ -4,5 +4,23 @@
     { "source": "/automation-bundle/", "destination": "/products/", "permanent": true },
     { "source": "/arnold-dizon", "destination": "/about/", "permanent": true },
     { "source": "/arnold-dizon/", "destination": "/about/", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(self \"https://form.jotform.com\"), microphone=(self \"https://form.jotform.com\"), geolocation=(self \"https://form.jotform.com\"), payment=(), usb=(), interest-cohort=()"
+        },
+        {
+          "key": "Content-Security-Policy-Report-Only",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://va.vercel-scripts.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://vitals.vercel-insights.com https://va.vercel-scripts.com; frame-src https://form.jotform.com https://www.jotform.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://form.jotform.com; object-src 'none'; upgrade-insecure-requests"
+        }
+      ]
+    }
   ]
 }
