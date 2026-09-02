@@ -6,7 +6,7 @@ export default function TermsPage() {
   return (
     <div className="max-w-3xl mx-auto px-5 py-16">
       <h1 className="font-display font-bold text-3xl text-navy mb-6">Terms of Service</h1>
-      <p className="text-gray-400 text-sm mb-8">Last updated: April 2026</p>
+      <p className="text-gray-500 text-sm mb-8">Last updated: April 2026</p>
       <div className="prose prose-gray max-w-none text-sm text-gray-600 leading-relaxed space-y-4">
         <p>By purchasing and using products from ARJE Digital (a DBA of ARJE Bookkeeping & Tax Services), you agree to the following terms.</p>
         <h2 className="font-display font-bold text-lg text-navy pt-4">Products and Delivery</h2>

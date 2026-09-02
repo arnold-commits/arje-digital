@@ -30,7 +30,7 @@ export default function ThanksHelpPage() {
           ))}
         </ol>
       </div>
-      <div className="text-left text-sm text-gray-400 space-y-1">
+      <div className="text-left text-sm text-gray-500 space-y-1">
         <p>Questions in the meantime? Email {siteConfig.email}</p>
       </div>
     </div>

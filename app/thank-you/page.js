@@ -33,7 +33,7 @@ export default function ThankYouPage() {
         <p className="text-amber-800 text-sm font-medium">Your purchase will appear as CLKBANK*COM on your bank or credit card statement.</p>
       </div>
 
-      <div className="text-left text-sm text-gray-400 space-y-1">
+      <div className="text-left text-sm text-gray-500 space-y-1">
         <p>For Product Support: {siteConfig.email}</p>
         <p>For Order Support: <a href="https://www.clkbank.com" className="text-teal underline">www.clkbank.com</a></p>
       </div>

@@ -6,7 +6,7 @@ export default function DisclaimerPage() {
   return (
     <div className="max-w-3xl mx-auto px-5 py-16">
       <h1 className="font-display font-bold text-3xl text-navy mb-6">Earnings Disclaimer</h1>
-      <p className="text-gray-400 text-sm mb-8">Last updated: April 2026</p>
+      <p className="text-gray-500 text-sm mb-8">Last updated: April 2026</p>
       <div className="prose prose-gray max-w-none text-sm text-gray-600 leading-relaxed space-y-4">
         <p>ARJE Digital (a DBA of ARJE Bookkeeping & Tax Services) provides digital templates, automation tools, and educational resources for bookkeepers, tax preparers, and Amazon sellers. The following disclaimer applies to all products and content.</p>
         <h2 className="font-display font-bold text-lg text-navy pt-4">No Guarantee of Results</h2>

@@ -16,7 +16,7 @@ export default function ProductsPage() {
     <div className="max-w-6xl mx-auto px-5 py-16">
       <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Shop</p>
       <h1 className="font-display font-bold text-4xl text-navy mb-2">Digital products for your practice</h1>
-      <p className="text-gray-400 mb-8 max-w-lg">Templates, automations, and systems. All Google Workspace compatible. No monthly fees.</p>
+      <p className="text-gray-500 mb-8 max-w-lg">Templates, automations, and systems. All Google Workspace compatible. No monthly fees.</p>
 
       {/* Filter Tabs */}
       <div className="flex flex-wrap gap-2 mb-10">
@@ -36,7 +36,7 @@ export default function ProductsPage() {
       </div>
 
       {filtered.length === 0 && (
-        <p className="text-center text-gray-400 py-16">No products in this category yet. Check back soon.</p>
+        <p className="text-center text-gray-500 py-16">No products in this category yet. Check back soon.</p>
       )}
     </div>
   )

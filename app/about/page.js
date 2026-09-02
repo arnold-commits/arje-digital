@@ -12,7 +12,7 @@ export default function AboutPage() {
     <div className="max-w-3xl mx-auto px-5 py-16">
       <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">About</p>
       <h1 className="font-display font-bold text-4xl text-navy mb-3">Arnold + Jean = ARJE</h1>
-      <p className="text-gray-400 mb-10 max-w-lg">A husband-and-wife team building digital tools that help accounting professionals work smarter.</p>
+      <p className="text-gray-500 mb-10 max-w-lg">A husband-and-wife team building digital tools that help accounting professionals work smarter.</p>
 
       <div className="space-y-6">
         <div className="bg-white rounded-xl p-8 border border-gray-100">
@@ -70,7 +70,7 @@ export default function AboutPage() {
           </p>
           <p className="text-gray-600 leading-relaxed">
             <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'about' }} className="text-teal font-bold hover:underline">Foundation Diagnosis — $495, read-only, credited toward the cleanup →</TrackedLink>
-            <span className="text-gray-400 text-sm block mt-2">Not sure yet? <a href="/get-help/" className="text-teal hover:underline">Tell us where your books stand</a>.</span>
+            <span className="text-gray-500 text-sm block mt-2">Not sure yet? <a href="/get-help/" className="text-teal hover:underline">Tell us where your books stand</a>.</span>
           </p>
         </div>
       </div>

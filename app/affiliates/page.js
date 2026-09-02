@@ -20,7 +20,7 @@ export default function AffiliatesPage() {
     <div className="max-w-4xl mx-auto px-5 py-16">
       <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Affiliate Program</p>
       <h1 className="font-display font-bold text-4xl text-navy mb-3">Earn 65% commission per sale</h1>
-      <p className="text-gray-400 mb-10 max-w-lg">Promote the Bookkeeper&apos;s Automation Bundle through ClickBank and earn $128+ per sale. Performance-based — you only earn when we earn.</p>
+      <p className="text-gray-500 mb-10 max-w-lg">Promote the Bookkeeper&apos;s Automation Bundle through ClickBank and earn $128+ per sale. Performance-based — you only earn when we earn.</p>
 
       {/* Stats */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-14">
@@ -32,7 +32,7 @@ export default function AffiliatesPage() {
           <div key={s.label} className="bg-white rounded-xl p-7 text-center border border-gray-100 card-hover">
             <div className="font-display font-extrabold text-4xl text-teal">{s.num}</div>
             <div className="font-display font-semibold text-navy mt-1">{s.label}</div>
-            <div className="text-gray-400 text-xs mt-1">{s.sub}</div>
+            <div className="text-gray-500 text-xs mt-1">{s.sub}</div>
           </div>
         ))}
       </div>

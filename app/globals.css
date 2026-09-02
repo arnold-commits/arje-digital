@@ -6,9 +6,11 @@
   --color-navy: #1B2A4A;
   --color-navy-dark: #0F1A2E;
   --color-navy-light: #243b5e;
-  --color-teal: #2A9D8F;
-  --color-teal-dark: #1e7a6f;
-  --color-teal-light: #3ab5a5;
+  /* Teal darkened 2026-09-02 for WCAG AA: #2A9D8F gave 3.3:1 on white (fails for small text and
+     white-on-teal buttons); #1e7a6f gives ~4.9:1. The old value survives as teal-light. */
+  --color-teal: #1e7a6f;
+  --color-teal-dark: #165c54;
+  --color-teal-light: #2A9D8F;
   --color-gold: #E9C46A;
   --color-gold-dark: #d4a843;
   --color-gold-light: #f0d48a;
@@ -20,7 +22,7 @@
 :root {
   --navy: #1B2A4A;
   --navy-dark: #0F1A2E;
-  --teal: #2A9D8F;
+  --teal: #1e7a6f;
   --gold: #E9C46A;
   --cream: #F8FAFB;
 }

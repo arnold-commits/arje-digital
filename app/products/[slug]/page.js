@@ -82,7 +82,7 @@ export default function ProductPage({ params }) {
       />
 
       {/* Breadcrumb */}
-      <nav className="text-xs text-gray-400 mb-8">
+      <nav className="text-xs text-gray-500 mb-8">
         <Link href="/" className="hover:text-teal">Home</Link>
         <span className="mx-2">/</span>
         <Link href="/products" className="hover:text-teal">Products</Link>
@@ -116,7 +116,7 @@ export default function ProductPage({ params }) {
 
           <div className="flex items-baseline gap-3 mb-6">
             <span className="font-display font-bold text-4xl text-navy">{product.price}</span>
-            <span className="text-sm text-gray-400">one-time · lifetime access</span>
+            <span className="text-sm text-gray-500">one-time · lifetime access</span>
           </div>
 
           {/* Buy buttons — Etsy primary, Gumroad secondary */}
@@ -142,7 +142,7 @@ export default function ProductPage({ params }) {
               </a>
             )}
           </div>
-          <p className="text-xs text-gray-400 mt-4 text-center">
+          <p className="text-xs text-gray-500 mt-4 text-center">
             Available on both platforms — pick whichever you prefer.
           </p>
         </div>
@@ -183,7 +183,7 @@ export default function ProductPage({ params }) {
         <p className="text-gray-500 leading-relaxed text-sm mb-3">
           ARJE Digital is built by Arnold Dizon — a PTIN-certified tax professional running a 90+ client practice. Every tool ships with practitioner-grade precision because Arnold uses them every day on real client work.
         </p>
-        <p className="text-xs text-gray-400">
+        <p className="text-xs text-gray-500">
           Questions? Email <a href={`mailto:${siteConfig.email}`} className="text-teal hover:underline">{siteConfig.email}</a>
         </p>
       </div>
@@ -200,7 +200,7 @@ export default function ProductPage({ params }) {
                 className="block bg-white rounded-xl p-5 border border-gray-100 hover:border-teal transition-colors"
               >
                 <div className="font-display font-semibold text-navy text-sm mb-2 leading-snug">{r.name}</div>
-                <div className="text-xs text-gray-400 mb-3 line-clamp-2">{r.description}</div>
+                <div className="text-xs text-gray-500 mb-3 line-clamp-2">{r.description}</div>
                 <div className="flex items-center justify-between">
                   <span className="font-display font-bold text-lg text-navy">{r.price}</span>
                   <span className="text-teal text-xs font-semibold">View →</span>
@@ -212,7 +212,7 @@ export default function ProductPage({ params }) {
       )}
 
       {/* Disclaimer */}
-      <p className="text-xs text-gray-400 italic text-center mt-8 max-w-xl mx-auto">
+      <p className="text-xs text-gray-500 italic text-center mt-8 max-w-xl mx-auto">
         Personal/business use only. Not for redistribution. Calculators are planning tools, not professional advice.
       </p>
     </div>

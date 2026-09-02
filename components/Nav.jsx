@@ -43,7 +43,13 @@ export default function Nav() {
         </div>
 
         {/* Mobile Toggle */}
-        <button onClick={() => setOpen(!open)} className="md:hidden text-white p-2">
+        <button
+          onClick={() => setOpen(!open)}
+          className="md:hidden text-white p-2"
+          aria-label={open ? 'Close menu' : 'Open menu'}
+          aria-expanded={open}
+          aria-controls="mobile-menu"
+        >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             {open ? <path d="M6 18L18 6M6 6l12 12" /> : <><path d="M4 6h16" /><path d="M4 12h16" /><path d="M4 18h16" /></>}
           </svg>
@@ -52,7 +58,7 @@ export default function Nav() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-navy-dark border-t border-white/10 px-5 py-4 animate-fade-in">
+        <div id="mobile-menu" className="md:hidden bg-navy-dark border-t border-white/10 px-5 py-4 animate-fade-in">
           {navLinks.map(link => (
             <Link key={link.name} href={link.href} onClick={() => setOpen(false)}
               className="block px-3 py-3 text-white/80 hover:text-white text-sm font-medium border-b border-white/5">

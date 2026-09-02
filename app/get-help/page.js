@@ -29,26 +29,26 @@ export default function GetHelpPage() {
 
       {/* What happens next */}
       <section className="max-w-4xl mx-auto px-6 pb-10">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-[#2ec4b6]">
+        <h2 className="text-sm font-semibold uppercase tracking-wider text-[#1e7a6f]">
           What happens after you submit
         </h2>
         <ol className="mt-4 space-y-3 text-[#1a1a2e]/85">
           <li className="flex gap-3">
-            <span className="font-semibold text-[#2ec4b6]">1.</span>
+            <span className="font-semibold text-[#1e7a6f]">1.</span>
             <span>
               We review what you sent and match it to the right kind of
               engagement.
             </span>
           </li>
           <li className="flex gap-3">
-            <span className="font-semibold text-[#2ec4b6]">2.</span>
+            <span className="font-semibold text-[#1e7a6f]">2.</span>
             <span>
               You get a personal email back within one business day with a
               clear next step.
             </span>
           </li>
           <li className="flex gap-3">
-            <span className="font-semibold text-[#2ec4b6]">3.</span>
+            <span className="font-semibold text-[#1e7a6f]">3.</span>
             <span>
               If we're a fit, we schedule a 20-minute call. If we're not,
               we tell you who is.
@@ -59,7 +59,7 @@ export default function GetHelpPage() {
 
       {/* The three ways this goes — so a cold visitor knows what "a clear next step" means */}
       <section className="max-w-4xl mx-auto px-6 pb-10">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-[#2ec4b6]">
+        <h2 className="text-sm font-semibold uppercase tracking-wider text-[#1e7a6f]">
           The three ways this usually goes
         </h2>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -67,14 +67,14 @@ export default function GetHelpPage() {
             href="/foundation-diagnosis"
             event="diagnosis_cta_click"
             data={{ placement: "get_help_routes" }}
-            className="block rounded-2xl border border-[#2ec4b6]/40 bg-[#2ec4b6]/5 p-5 transition-colors hover:border-[#2ec4b6]/70"
+            className="block rounded-2xl border border-[#1e7a6f]/40 bg-[#1e7a6f]/5 p-5 transition-colors hover:border-[#1e7a6f]/70"
           >
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#2ec4b6]">Books behind, or &ldquo;fixed&rdquo; and still wrong</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#1e7a6f]">Books behind, or &ldquo;fixed&rdquo; and still wrong</p>
             <p className="mt-2 font-semibold text-[#1a1a2e]">Foundation Diagnosis</p>
             <p className="mt-1 text-sm text-[#1a1a2e]/70">
               $495, fixed. Read-only forensic pass over your QuickBooks, written verdict and a real cleanup quote in 5 business days. Credited 100% toward the cleanup within 30 days.
             </p>
-            <p className="mt-3 text-sm font-semibold text-[#2ec4b6]">Start the Foundation Diagnosis →</p>
+            <p className="mt-3 text-sm font-semibold text-[#1e7a6f]">Start the Foundation Diagnosis →</p>
           </TrackedLink>
 
           <a
@@ -114,6 +114,7 @@ export default function GetHelpPage() {
             title="Get help intake form"
             allow="geolocation; microphone; camera; fullscreen"
             allowFullScreen
+            loading="lazy"
             className="w-full"
             style={{
               minHeight: "920px",

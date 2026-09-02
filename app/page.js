@@ -43,7 +43,7 @@ export default function Home() {
           {stats.map((s, i) => (
             <div key={s.label} className={`animate-fade-up stagger-${i+1} bg-white rounded-xl p-5 text-center border border-gray-100 shadow-sm`}>
               <div className="font-display font-extrabold text-3xl text-teal">{s.value}</div>
-              <div className="text-gray-400 text-xs font-medium mt-1 tracking-wide uppercase">{s.label}</div>
+              <div className="text-gray-500 text-xs font-medium mt-1 tracking-wide uppercase">{s.label}</div>
             </div>
           ))}
         </div>
@@ -53,7 +53,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-5 py-20">
         <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Featured Products</p>
         <h2 className="font-display font-bold text-3xl text-navy mb-2">Built by a practitioner, for practitioners</h2>
-        <p className="text-gray-400 mb-10 max-w-lg">Every template and automation tested on real clients in a real 90+ client practice.</p>
+        <p className="text-gray-500 mb-10 max-w-lg">Every template and automation tested on real clients in a real 90+ client practice.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {products.slice(0, 3).map(p => (
@@ -112,7 +112,7 @@ export default function Home() {
         <div className="bg-white rounded-2xl p-10 md:p-14 border border-gray-100 shadow-sm">
           <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Ready to Automate?</p>
           <h2 className="font-display font-bold text-3xl text-navy mb-4">Get the complete system for $197</h2>
-          <p className="text-gray-400 mb-8 max-w-md mx-auto">One-time payment. No subscriptions. 60-day money-back guarantee. Start onboarding clients on autopilot this weekend.</p>
+          <p className="text-gray-500 mb-8 max-w-md mx-auto">One-time payment. No subscriptions. 60-day money-back guarantee. Start onboarding clients on autopilot this weekend.</p>
           <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
             Get the Automation Bundle →
           </a>

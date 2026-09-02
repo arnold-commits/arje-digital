@@ -18,7 +18,7 @@ export default async function BlogIndex() {
     <div className="max-w-3xl mx-auto px-5 py-16">
       <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Blog</p>
       <h1 className="font-display font-bold text-4xl text-navy mb-3">ARJE Blog</h1>
-      <p className="text-gray-400 mb-10 max-w-lg">
+      <p className="text-gray-500 mb-10 max-w-lg">
         Practical bookkeeping and tax operations for Amazon sellers and the professionals who serve them. Written by a working practitioner, not a content team.
       </p>
 
@@ -26,7 +26,7 @@ export default async function BlogIndex() {
         <div className="space-y-5">
           {posts.map(p => (
             <article key={p.url} className="bg-white rounded-xl p-6 border border-gray-100 card-hover">
-              <p className="text-gray-400 text-xs mb-2">
+              <p className="text-gray-500 text-xs mb-2">
                 {p.isoDate ? <time dateTime={p.isoDate}>{p.date}</time> : null}
               </p>
               <h2 className="font-display font-bold text-xl text-navy mb-2 leading-snug">
@@ -58,7 +58,7 @@ export default async function BlogIndex() {
             Start the Foundation Diagnosis →
           </TrackedLink>
         </p>
-        <p className="text-gray-400 text-xs mt-3">
+        <p className="text-gray-500 text-xs mt-3">
           Guides on this site: <Link href="/fba-bookkeeping-system" className="text-teal hover:underline">Amazon FBA Bookkeeping</Link> · <Link href="/quarterly-estimated-taxes" className="text-teal hover:underline">Quarterly Estimated Taxes</Link>
         </p>
       </div>
