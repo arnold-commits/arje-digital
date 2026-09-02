@@ -1,6 +1,10 @@
 import { siteConfig } from '@/lib/data'
 
-export const metadata = { title: "About ARJE Digital" }
+export const metadata = {
+  title: "About ARJE Digital",
+  description:
+    "Arnold and Jean Dizon run ARJE Bookkeeping & Tax Services in Henderson, NV: forensic Amazon FBA bookkeeping, tax prep, and practitioner-built tools.",
+}
 
 export default function AboutPage() {
   return (

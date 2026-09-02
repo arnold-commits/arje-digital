@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'What Should I Charge as a Bookkeeper? Hourly Rate Calculator | ARJE Bookkeeping',
-  description: 'Solo bookkeeper wondering what to charge? Learn how to price hourly vs. value vs. fixed-fee, benchmark 2026 rates by region and client type, and stop undercharging — from a PTIN-certified pro managing 90+ clients solo.',
+  title: { absolute: 'What Should I Charge as a Bookkeeper? 2026 Rate Guide' },
+  description: 'Hourly vs. value vs. fixed-fee pricing for solo bookkeepers, 2026 rate benchmarks by client type, and a three-step method to back into your monthly fee.',
 }
 
 export default function BookkeeperHourlyRateCalculator() {

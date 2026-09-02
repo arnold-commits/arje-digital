@@ -1,6 +1,12 @@
 import Link from 'next/link'
 import TrackedLink from '@/components/TrackedLink'
 
+export const metadata = {
+  title: 'Bookkeeping Services in Henderson, NV',
+  description:
+    'Monthly bookkeeping for Henderson and Las Vegas small businesses, cleanup included. Ten founding spots at a locked rate, direct practitioner access.',
+}
+
 export default function Bookkeeping() {
   const spotsRemaining = 10
 

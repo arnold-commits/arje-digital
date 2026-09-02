@@ -1,6 +1,10 @@
 import { siteConfig } from '@/lib/data'
 
-export const metadata = { title: "Affiliate Program — Earn 65% Commission" }
+export const metadata = {
+  title: "Affiliate Program — Earn 65% Commission",
+  description:
+    "Promote the Bookkeeper's Automation Bundle through ClickBank: 65% commission, $128+ per sale on a $197 product, 60-day cookie. Swipes and banners included.",
+}
 
 const resources = [
   '5 pre-written email swipes (customize and send to your list)',

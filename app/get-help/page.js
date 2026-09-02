@@ -1,9 +1,9 @@
 import TrackedLink from "@/components/TrackedLink";
 
 export const metadata = {
-  title: "Get Help With Your Books — ARJE Bookkeeping & Tax Services",
+  title: { absolute: "Get Help With Your Books — ARJE Bookkeeping & Tax" },
   description:
-    "Tell us where your books stand and what you need. We'll respond within one business day with a clear next step — whether that's a cleanup quote, a monthly bookkeeping plan, or a referral.",
+    "Tell us where your books stand. Within one business day you get a clear next step: a Foundation Diagnosis, a cleanup quote, a monthly plan, or a referral.",
 };
 
 export default function GetHelpPage() {

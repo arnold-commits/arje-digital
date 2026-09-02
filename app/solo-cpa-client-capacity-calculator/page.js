@@ -1,6 +1,7 @@
 export const metadata = {
-  title: 'Solo CPA Capacity Calculator: How Many Clients Can You Realistically Handle? | ARJE Bookkeeping',
-  description: 'How many clients can a solo CPA realistically handle? Capacity benchmarks, hours-per-client math, and when to hire help vs. raise rates — from a PTIN-certified CPA running 90+ returns solo.',
+  // absolute: skips the "| ARJE Digital" template suffix — the old title ran 110 characters.
+  title: { absolute: 'How Many Clients Can a Solo CPA Handle? Capacity Calculator' },
+  description: 'How many clients can a solo CPA realistically handle? Capacity benchmarks by service tier, hours-per-client math, and when to hire vs. raise rates.',
 }
 
 export default function SoloCPAClientCapacityCalculator() {
