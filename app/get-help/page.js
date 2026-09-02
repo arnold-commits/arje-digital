@@ -57,25 +57,53 @@ export default function GetHelpPage() {
         </ol>
       </section>
 
-      {/* Foundation Diagnosis nudge — sits above the form, doesn't touch it */}
-      <section className="max-w-4xl mx-auto px-6 pb-8">
-        <TrackedLink
-          href="/foundation-diagnosis"
-          event="diagnosis_cta_click"
-          data={{ placement: "get_help_nudge" }}
-          className="block rounded-2xl border border-[#2ec4b6]/30 bg-[#2ec4b6]/5 p-5 sm:p-6 transition-colors hover:border-[#2ec4b6]/60"
-        >
-          <p className="font-semibold text-[#1a1a2e]">
-            Books behind, or &ldquo;fixed&rdquo; before and still wrong?
-          </p>
-          <p className="mt-1 text-sm text-[#1a1a2e]/70">
-            Start with the Foundation Diagnosis — a $495 fixed-fee, read-only
-            forensic pass, credited toward the cleanup.{" "}
-            <span className="font-semibold text-[#2ec4b6] whitespace-nowrap">
-              Start the Foundation Diagnosis →
-            </span>
-          </p>
-        </TrackedLink>
+      {/* The three ways this goes — so a cold visitor knows what "a clear next step" means */}
+      <section className="max-w-4xl mx-auto px-6 pb-10">
+        <h2 className="text-sm font-semibold uppercase tracking-wider text-[#2ec4b6]">
+          The three ways this usually goes
+        </h2>
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <TrackedLink
+            href="/foundation-diagnosis"
+            event="diagnosis_cta_click"
+            data={{ placement: "get_help_routes" }}
+            className="block rounded-2xl border border-[#2ec4b6]/40 bg-[#2ec4b6]/5 p-5 transition-colors hover:border-[#2ec4b6]/70"
+          >
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#2ec4b6]">Books behind, or &ldquo;fixed&rdquo; and still wrong</p>
+            <p className="mt-2 font-semibold text-[#1a1a2e]">Foundation Diagnosis</p>
+            <p className="mt-1 text-sm text-[#1a1a2e]/70">
+              $495, fixed. Read-only forensic pass over your QuickBooks, written verdict and a real cleanup quote in 5 business days. Credited 100% toward the cleanup within 30 days.
+            </p>
+            <p className="mt-3 text-sm font-semibold text-[#2ec4b6]">Start the Foundation Diagnosis →</p>
+          </TrackedLink>
+
+          <a
+            href="/bookkeeping/"
+            className="block rounded-2xl border border-[#1a1a2e]/10 bg-white p-5 transition-colors hover:border-[#1a1a2e]/30"
+          >
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#1a1a2e]/50">Books are current, you want them off your desk</p>
+            <p className="mt-2 font-semibold text-[#1a1a2e]">Monthly bookkeeping</p>
+            <p className="mt-1 text-sm text-[#1a1a2e]/70">
+              Monthly close, reconciliations, and year-end-ready books. Founding-client rate for Henderson and Las Vegas businesses, with the initial cleanup included.
+            </p>
+            <p className="mt-3 text-sm font-semibold text-[#1a1a2e]">See the offer →</p>
+          </a>
+
+          <a
+            href="/fba-bookkeeping-system/"
+            className="block rounded-2xl border border-[#1a1a2e]/10 bg-white p-5 transition-colors hover:border-[#1a1a2e]/30"
+          >
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#1a1a2e]/50">Not a fit, or not yet</p>
+            <p className="mt-2 font-semibold text-[#1a1a2e]">An honest referral, or the guide</p>
+            <p className="mt-1 text-sm text-[#1a1a2e]/70">
+              If we&rsquo;re not the right practice for your situation we say so and point you to who is. If you&rsquo;d rather do it yourself first, the Amazon FBA bookkeeping guide is free.
+            </p>
+            <p className="mt-3 text-sm font-semibold text-[#1a1a2e]">Read the guide →</p>
+          </a>
+        </div>
+        <p className="mt-4 text-sm text-[#1a1a2e]/60">
+          Every reply is written by Arnold Dizon, PTIN-certified tax preparer and QuickBooks Online ProAdvisor. There is no sales team and nothing automated decides what you&rsquo;re quoted.
+        </p>
       </section>
 
       {/* Form */}
