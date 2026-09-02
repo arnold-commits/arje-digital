@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Amazon FBA Bookkeeping: The Complete Guide (2026)',
-  description: 'How Amazon FBA sellers should do their bookkeeping in 2026 — settlements, COGS, fees, reimbursements, and taxes. By a PTIN-certified pro who reconciles FBA books to the cent.',
+  description: 'How Amazon FBA sellers should do their bookkeeping: settlements, COGS, fees, reimbursements, taxes. By a PTIN-certified pro who reconciles to the cent.',
 }
 
 const faqs = [

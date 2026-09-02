@@ -8,9 +8,9 @@ const INFOGRAPHIC_ALT =
   'Infographic — three signs an Amazon seller’s QuickBooks needs a forensic look: Reconciliation Discrepancies isn’t exactly $0; Opening Balance Equity never cleared; a “cleared” plug dated at a statement’s closing date. Foundation Diagnosis: $495, read-only, credited 100% toward cleanup within 30 days.'
 
 export const metadata = {
-  title: 'Foundation Diagnosis — Forensic QuickBooks Review for Amazon Sellers',
+  title: { absolute: 'Foundation Diagnosis — Forensic QuickBooks Review for Sellers' },
   description:
-    'A $495 read-only forensic pass over your QuickBooks file — for Amazon and e-commerce sellers whose books balance but don’t add up. Credited in full toward the cleanup.',
+    'A $495 read-only forensic pass over your QuickBooks file, for Amazon sellers whose books balance but don’t add up. Credited in full toward the cleanup.',
   alternates: { canonical: '/foundation-diagnosis/' },
   openGraph: {
     type: 'website',

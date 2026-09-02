@@ -1,8 +1,8 @@
 import TrackedLink from '@/components/TrackedLink'
 
 export const metadata = {
-  title: 'How Much Should I Pay in Quarterly Estimated Taxes? | ARJE Bookkeeping',
-  description: 'Self-employed? Learn how to calculate quarterly estimated tax payments, use the safe harbor rule to avoid penalties, and hit every 2026 IRS deadline — from a PTIN-certified tax pro running 90+ client returns a year.',
+  title: { absolute: 'How Much Should I Pay in Quarterly Estimated Taxes? (2026)' },
+  description: 'How self-employed filers and Amazon sellers calculate quarterly estimated taxes, use the safe harbor rule to avoid penalties, and hit every 2026 IRS deadline.',
 }
 
 export default function QuarterlyEstimatedTaxes() {

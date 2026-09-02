@@ -1,6 +1,10 @@
 import { siteConfig } from '@/lib/data'
 
-export const metadata = { title: "Contact Us" }
+export const metadata = {
+  title: "Contact ARJE Bookkeeping & Tax",
+  description:
+    "Email arnold@arjebookkeeping.com for bookkeeping, tax, and product questions. Henderson, Nevada. We respond within one business day.",
+}
 
 export default function ContactPage() {
   return (
