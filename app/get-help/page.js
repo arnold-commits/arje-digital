@@ -1,3 +1,5 @@
+import TrackedLink from "@/components/TrackedLink";
+
 export const metadata = {
   title: "Get Help With Your Books — ARJE Bookkeeping & Tax Services",
   description:
@@ -57,8 +59,10 @@ export default function GetHelpPage() {
 
       {/* Foundation Diagnosis nudge — sits above the form, doesn't touch it */}
       <section className="max-w-4xl mx-auto px-6 pb-8">
-        <a
-          href="/foundation-diagnosis/"
+        <TrackedLink
+          href="/foundation-diagnosis"
+          event="diagnosis_cta_click"
+          data={{ placement: "get_help_nudge" }}
           className="block rounded-2xl border border-[#2ec4b6]/30 bg-[#2ec4b6]/5 p-5 sm:p-6 transition-colors hover:border-[#2ec4b6]/60"
         >
           <p className="font-semibold text-[#1a1a2e]">
@@ -71,7 +75,7 @@ export default function GetHelpPage() {
               Start the Foundation Diagnosis →
             </span>
           </p>
-        </a>
+        </TrackedLink>
       </section>
 
       {/* Form */}

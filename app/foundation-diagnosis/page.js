@@ -1,9 +1,31 @@
-import Link from 'next/link'
+import TrackedLink from '@/components/TrackedLink'
+import { siteConfig } from '@/lib/data'
+
+const PAGE_URL = `${siteConfig.url}/foundation-diagnosis/`
+const OG_IMAGE = '/og/foundation-diagnosis.png'
+const INFOGRAPHIC = '/images/foundation-diagnosis-three-signs.png'
+const INFOGRAPHIC_ALT =
+  'Infographic — three signs an Amazon seller’s QuickBooks needs a forensic look: Reconciliation Discrepancies isn’t exactly $0; Opening Balance Equity never cleared; a “cleared” plug dated at a statement’s closing date. Foundation Diagnosis: $495, read-only, credited 100% toward cleanup within 30 days.'
 
 export const metadata = {
   title: 'Foundation Diagnosis — Forensic QuickBooks Review for Amazon Sellers',
   description:
     'A $495 read-only forensic pass over your QuickBooks file — for Amazon and e-commerce sellers whose books balance but don’t add up. Credited in full toward the cleanup.',
+  alternates: { canonical: '/foundation-diagnosis/' },
+  openGraph: {
+    type: 'website',
+    url: PAGE_URL,
+    title: 'Your books balance. That doesn’t mean they’re clean. — Foundation Diagnosis',
+    description:
+      'A $495 fixed-fee, read-only forensic review of your QuickBooks file. Credited 100% toward the cleanup if you engage within 30 days.',
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Foundation Diagnosis — Your books balance. That doesn’t mean they’re clean.' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Your books balance. That doesn’t mean they’re clean.',
+    description: 'A $495 read-only forensic review of your QuickBooks — credited 100% toward cleanup within 30 days.',
+    images: [OG_IMAGE],
+  },
 }
 
 const STRIPE_CHECKOUT = 'https://buy.stripe.com/14A3coaPv6tM2Ayd681Jm00'
@@ -87,22 +109,24 @@ const faqs = [
 const serviceLd = {
   '@context': 'https://schema.org',
   '@type': 'Service',
+  '@id': `${PAGE_URL}#service`,
   name: 'Foundation Diagnosis',
   serviceType: 'Forensic bookkeeping diagnosis',
+  url: PAGE_URL,
+  image: `${siteConfig.url}${INFOGRAPHIC}`,
   description:
     'A fixed-fee, read-only forensic diagnosis of a QuickBooks file for Amazon and e-commerce sellers. Identifies forced reconciliations, settlement mis-attribution, and corrections that balance but don’t tie, then delivers a written verdict and a fixed cleanup quote.',
-  provider: {
-    '@type': 'Organization',
-    name: 'ARJE Bookkeeping & Tax Services',
-    url: 'https://arjebookkeeping.com',
-  },
+  // Same Organization the root layout declares — referenced by @id, not redeclared.
+  provider: { '@id': `${siteConfig.url}/#organization` },
   areaServed: 'US',
+  audience: { '@type': 'BusinessAudience', name: 'Amazon and multi-marketplace e-commerce sellers' },
   offers: {
     '@type': 'Offer',
     priceCurrency: 'USD',
     price: 495,
     url: STRIPE_CHECKOUT,
     availability: 'https://schema.org/InStock',
+    description: 'Fixed fee, read-only. Credited 100% toward the cleanup if engaged within 30 days of report delivery.',
   },
 }
 
@@ -143,12 +167,12 @@ export default function FoundationDiagnosis() {
             A fixed-fee forensic diagnosis of your QuickBooks file — for Amazon and e-commerce sellers whose numbers tie but don&rsquo;t add up.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href={STRIPE_CHECKOUT} target="_blank" rel="noopener" className="px-8 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
+            <TrackedLink href={STRIPE_CHECKOUT} event="diagnosis_cta_click" data={{ placement: 'diagnosis_hero' }} target="_blank" rel="noopener" className="px-8 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
               Start the diagnosis — $495
-            </a>
-            <Link href="/get-help" className="px-8 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
+            </TrackedLink>
+            <TrackedLink href="/get-help" event="get_help_cta_click" data={{ placement: 'diagnosis_hero' }} className="px-8 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
               Not sure yet? Start at /get-help
-            </Link>
+            </TrackedLink>
           </div>
           <p className="text-white/40 text-xs mt-6">$495, fixed · read-only · credited 100% toward your cleanup if you engage within 30 days</p>
         </div>
@@ -178,6 +202,21 @@ export default function FoundationDiagnosis() {
               </div>
             ))}
           </div>
+
+          {/* The three tells a seller can check today, as one image — also the page's share card */}
+          <figure className="max-w-2xl mx-auto mt-14">
+            <img
+              src={INFOGRAPHIC}
+              alt={INFOGRAPHIC_ALT}
+              width={1080}
+              height={1350}
+              loading="lazy"
+              className="w-full h-auto rounded-2xl border border-gray-100 shadow-sm"
+            />
+            <figcaption className="text-center text-gray-400 text-xs mt-4 leading-relaxed">
+              Three of the tells, in plain language. Check any one of them in your own file before you pay anyone to &ldquo;fix&rdquo; it again.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -227,11 +266,11 @@ export default function FoundationDiagnosis() {
           <p className="text-white/60 text-sm leading-relaxed max-w-xl mx-auto mb-8">
             And if your books turn out to be fine? The report says so, and the quote reflects it. We&rsquo;re paid for the search either way — which is exactly why the answer is honest.
           </p>
-          <a href={STRIPE_CHECKOUT} target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
+          <TrackedLink href={STRIPE_CHECKOUT} event="diagnosis_cta_click" data={{ placement: 'diagnosis_price' }} target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
             Start the diagnosis — $495
-          </a>
+          </TrackedLink>
           <p className="text-white/50 text-sm mt-6">
-            Not sure yet? <Link href="/get-help" className="text-gold hover:underline">Start at /get-help</Link> — tell us where your books stand and we&rsquo;ll point you to the right first step.
+            Not sure yet? <TrackedLink href="/get-help" event="get_help_cta_click" data={{ placement: 'diagnosis_price' }} className="text-gold hover:underline">Start at /get-help</TrackedLink> — tell us where your books stand and we&rsquo;ll point you to the right first step.
           </p>
         </div>
       </section>

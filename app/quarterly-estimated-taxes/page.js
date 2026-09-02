@@ -1,3 +1,5 @@
+import TrackedLink from '@/components/TrackedLink'
+
 export const metadata = {
   title: 'How Much Should I Pay in Quarterly Estimated Taxes? | ARJE Bookkeeping',
   description: 'Self-employed? Learn how to calculate quarterly estimated tax payments, use the safe harbor rule to avoid penalties, and hit every 2026 IRS deadline — from a PTIN-certified tax pro running 90+ client returns a year.',
@@ -145,7 +147,7 @@ export default function QuarterlyEstimatedTaxes() {
 
         <p>If you want to verify your Q2 payment before the June 15 deadline, that is what it is built for.</p>
 
-        <p>And if the problem is upstream — books that can’t produce a trustworthy net-profit number in the first place — <a href="/get-help/">get help with your books here</a>. Diagnosis-first, fixed-fee assessment before any cleanup is quoted.</p>
+        <p>And if the problem is upstream — books that can’t produce a trustworthy net-profit number in the first place — start with the <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'quarterly_taxes' }}>Foundation Diagnosis</TrackedLink>: a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days. Not sure that’s the right first step? <a href="/get-help/">Tell us where your books stand</a> and we’ll point you to it.</p>
 
         <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon is a PTIN-certified tax professional and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs 90+ client returns annually and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not tax advice for your specific situation — consult a qualified tax professional for decisions involving your finances.</p>
       </div>

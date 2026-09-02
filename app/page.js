@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { products, stats, siteConfig } from '@/lib/data'
 import ProductCard from '@/components/ProductCard'
+import TrackedLink from '@/components/TrackedLink'
 
 export default function Home() {
   return (
@@ -20,16 +21,19 @@ export default function Home() {
             Bookkeeping, cleanup, and tax help for Amazon FBA sellers — plus templates and automations for bookkeepers and tax preparers. 100% Google Workspace.
           </p>
           <div className="animate-fade-up stagger-4 flex flex-wrap gap-4 justify-center">
-            <Link href="/products" className="px-7 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
+            <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'home_hero' }} className="px-7 py-4 bg-gold text-navy font-bold rounded-lg hover:opacity-90 transition-all text-sm tracking-wide">
+              Foundation Diagnosis — $495
+            </TrackedLink>
+            <TrackedLink href="/get-help" event="get_help_cta_click" data={{ placement: 'home_hero' }} className="px-7 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
+              Get Help With Your Books
+            </TrackedLink>
+            <Link href="/products" className="px-7 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
               Browse Products
             </Link>
-            <Link href="/get-help" className="px-7 py-4 bg-gold text-navy font-bold rounded-lg hover:opacity-90 transition-all text-sm tracking-wide">
-              Get Help With Your Books
-            </Link>
-            <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle" target="_blank" rel="noopener" className="px-7 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
-              Get the Bundle — $197
-            </a>
           </div>
+          <p className="animate-fade-up stagger-4 text-white/40 text-xs mt-6">
+            Read-only forensic review of your QuickBooks · credited 100% toward your cleanup within 30 days
+          </p>
         </div>
       </section>
 

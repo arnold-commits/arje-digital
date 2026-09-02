@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import TrackedLink from '@/components/TrackedLink'
 
 export default function Bookkeeping() {
   const spotsRemaining = 10
@@ -223,10 +224,18 @@ export default function Bookkeeping() {
             Email Arnold →
           </a>
           <p className="text-gray-400 text-xs mt-6">
-            Or call directly: <span className="text-navy font-bold">(702) 583-7037</span>
-          </p>
-          <p className="text-gray-400 text-xs mt-3">
             Not ready to book? <Link href="/get-help" className="text-teal font-bold hover:underline">Tell me about your situation →</Link> Quick form, I'll get back to you with pricing transparency before scheduling.
+          </p>
+        </div>
+
+        {/* Diagnosis-first route for books that were already "fixed" once */}
+        <div className="mt-6 rounded-2xl border border-teal/30 bg-teal/5 p-6 text-left">
+          <p className="font-display font-bold text-navy mb-1">Books already &ldquo;fixed&rdquo; once and still wrong?</p>
+          <p className="text-gray-500 text-sm leading-relaxed">
+            Start with the Foundation Diagnosis instead — a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days. It is how I find out whether your file fits the $2,500 cap before either of us commits.{' '}
+            <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'bookkeeping_cta' }} className="text-teal font-bold hover:underline whitespace-nowrap">
+              Start the Foundation Diagnosis →
+            </TrackedLink>
           </p>
         </div>
       </section>
