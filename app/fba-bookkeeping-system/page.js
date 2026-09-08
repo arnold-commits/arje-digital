@@ -135,7 +135,7 @@ export default function FBABookkeepingSystem() {
 
         <p>Three tells, in plain language:</p>
 
-        <p><strong>Your reconciliations “balance” but something feels wrong.</strong> Forced reconciliations — plugged adjustments that make the numbers tie — are the most expensive kind of broken books, because they hide the damage. If your file has reconciliation-discrepancy entries or year-end “correcting entries” nobody can explain, the foundation needs a diagnosis before anything built on it can be trusted.</p>
+        <p><strong>Your reconciliations “balance” but something feels wrong.</strong> Forced reconciliations — plugged adjustments that make the numbers tie — are the most expensive kind of broken books, because they hide the damage. If your file has reconciliation-discrepancy entries or year-end “correcting entries” nobody can explain, the foundation needs a diagnosis before anything built on it can be trusted. Three account-level tells that this has already happened — each one checkable in about a minute — are in <a href="https://blog.arjebookkeeping.com/books-balance-doesnt-mean-clean/">Your Books Balance. That Doesn’t Mean They’re Clean</a>.</p>
 
         <p><strong>Your books are a year or more behind.</strong> A backlog of unreconciled settlements compounds: reserves roll across periods, refunds cross month boundaries, and the reconstruction has to be done in sequence. This is rebuild territory, and it’s faster in expert hands.</p>
 
