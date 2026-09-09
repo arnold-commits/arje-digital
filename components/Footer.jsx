@@ -12,10 +12,10 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-teal to-gold flex items-center justify-center text-white font-bold text-sm">A</div>
               <span className="text-white font-display font-bold text-lg">{siteConfig.name}</span>
             </div>
-            <p className="text-white/40 text-sm leading-relaxed max-w-sm mb-4">
+            <p className="text-white/70 text-sm leading-relaxed max-w-sm mb-4">
               Digital templates, automations, and SaaS tools for bookkeepers, tax preparers, and Amazon FBA sellers. Built by practitioners, for practitioners.
             </p>
-            <p className="text-white/30 text-xs">{siteConfig.location} | {siteConfig.email}</p>
+            <p className="text-white/60 text-xs">{siteConfig.location} | {siteConfig.email}</p>
           </div>
 
           {/* Pages */}
@@ -56,11 +56,11 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-white/25 text-xs">&copy; 2026 {siteConfig.name}. A DBA of ARJE Bookkeeping & Tax Services. All rights reserved.</p>
+          <p className="text-white/55 text-xs">&copy; 2026 {siteConfig.name}. A DBA of ARJE Bookkeeping & Tax Services. All rights reserved.</p>
           <div className="flex gap-5">
-            <Link href="/privacy" className="text-white/25 text-xs hover:text-white/50 transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="text-white/25 text-xs hover:text-white/50 transition-colors">Terms of Service</Link>
-            <Link href="/disclaimer" className="text-white/25 text-xs hover:text-white/50 transition-colors">Earnings Disclaimer</Link>
+            <Link href="/privacy" className="text-white/55 text-xs hover:text-white/80 transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="text-white/55 text-xs hover:text-white/80 transition-colors">Terms of Service</Link>
+            <Link href="/disclaimer" className="text-white/55 text-xs hover:text-white/80 transition-colors">Earnings Disclaimer</Link>
           </div>
         </div>
       </div>

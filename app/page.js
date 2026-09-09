@@ -32,7 +32,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="animate-fade-up stagger-4 text-white/40 text-xs mt-6">
-            Read-only forensic review of your QuickBooks · credited 100% toward your cleanup within 30 days
+            Read-only forensic review of your QuickBooks · credited 100% toward your cleanup within 30 days of your report
           </p>
         </div>
       </section>

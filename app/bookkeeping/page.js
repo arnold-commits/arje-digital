@@ -238,7 +238,7 @@ export default function Bookkeeping() {
         <div className="mt-6 rounded-2xl border border-teal/30 bg-teal/5 p-6 text-left">
           <p className="font-display font-bold text-navy mb-1">Books already &ldquo;fixed&rdquo; once and still wrong?</p>
           <p className="text-gray-500 text-sm leading-relaxed">
-            Start with the Foundation Diagnosis instead — a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days. It is how I find out whether your file fits the $2,500 cap before either of us commits.{' '}
+            Start with the Foundation Diagnosis instead — a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days of your report. It is how I find out whether your file fits the $2,500 cap before either of us commits.{' '}
             <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'bookkeeping_cta' }} className="text-teal font-bold hover:underline whitespace-nowrap">
               Start the Foundation Diagnosis →
             </TrackedLink>

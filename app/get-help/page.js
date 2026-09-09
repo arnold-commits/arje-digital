@@ -72,7 +72,7 @@ export default function GetHelpPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-[#1e7a6f]">Books behind, or &ldquo;fixed&rdquo; and still wrong</p>
             <p className="mt-2 font-semibold text-[#1a1a2e]">Foundation Diagnosis</p>
             <p className="mt-1 text-sm text-[#1a1a2e]/70">
-              $495, fixed. Read-only forensic pass over your QuickBooks, written verdict and a real cleanup quote in 5 business days. Credited 100% toward the cleanup within 30 days.
+              $495, fixed. Read-only forensic pass over your QuickBooks, written verdict and a real cleanup quote in 5 business days. Credited 100% toward the cleanup within 30 days of your report.
             </p>
             <p className="mt-3 text-sm font-semibold text-[#1e7a6f]">Start the Foundation Diagnosis →</p>
           </TrackedLink>
@@ -81,7 +81,7 @@ export default function GetHelpPage() {
             href="/bookkeeping/"
             className="block rounded-2xl border border-[#1a1a2e]/10 bg-white p-5 transition-colors hover:border-[#1a1a2e]/30"
           >
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#1a1a2e]/50">Books are current, you want them off your desk</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#1a1a2e]/70">Books are current, you want them off your desk</p>
             <p className="mt-2 font-semibold text-[#1a1a2e]">Monthly bookkeeping</p>
             <p className="mt-1 text-sm text-[#1a1a2e]/70">
               Monthly close, reconciliations, and year-end-ready books. Founding-client rate for Henderson and Las Vegas businesses, with the initial cleanup included.
@@ -93,7 +93,7 @@ export default function GetHelpPage() {
             href="/fba-bookkeeping-system/"
             className="block rounded-2xl border border-[#1a1a2e]/10 bg-white p-5 transition-colors hover:border-[#1a1a2e]/30"
           >
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#1a1a2e]/50">Not a fit, or not yet</p>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#1a1a2e]/70">Not a fit, or not yet</p>
             <p className="mt-2 font-semibold text-[#1a1a2e]">An honest referral, or the guide</p>
             <p className="mt-1 text-sm text-[#1a1a2e]/70">
               If we&rsquo;re not the right practice for your situation we say so and point you to who is. If you&rsquo;d rather do it yourself first, the Amazon FBA bookkeeping guide is free.
@@ -101,7 +101,7 @@ export default function GetHelpPage() {
             <p className="mt-3 text-sm font-semibold text-[#1a1a2e]">Read the guide →</p>
           </a>
         </div>
-        <p className="mt-4 text-sm text-[#1a1a2e]/60">
+        <p className="mt-4 text-sm text-[#1a1a2e]/75">
           Every reply is written by Arnold Dizon, PTIN-certified tax preparer and QuickBooks Online ProAdvisor. There is no sales team and nothing automated decides what you&rsquo;re quoted.
         </p>
       </section>
@@ -124,7 +124,7 @@ export default function GetHelpPage() {
         </div>
 
         {/* Trust footer */}
-        <div className="mt-8 text-center text-sm text-[#1a1a2e]/60">
+        <div className="mt-8 text-center text-sm text-[#1a1a2e]/75">
           <p>
             ARJE Bookkeeping &amp; Tax Services · Henderson, NV ·
             PTIN-certified · arnold@arjebookkeeping.com
