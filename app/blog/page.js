@@ -53,7 +53,7 @@ export default async function BlogIndex() {
       <div className="mt-14 rounded-2xl border border-teal/30 bg-teal/5 p-6">
         <p className="font-display font-bold text-navy mb-1">Reading because your own books don&rsquo;t add up?</p>
         <p className="text-gray-500 text-sm leading-relaxed">
-          Start with the Foundation Diagnosis — a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days.{' '}
+          Start with the Foundation Diagnosis — a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days of your report.{' '}
           <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'blog_index' }} className="text-teal font-bold hover:underline whitespace-nowrap">
             Start the Foundation Diagnosis →
           </TrackedLink>

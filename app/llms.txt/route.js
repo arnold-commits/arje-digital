@@ -13,7 +13,7 @@ const SERVICES = [
   {
     name: 'Foundation Diagnosis',
     url: `${siteConfig.url}/foundation-diagnosis/`,
-    text: '$495 fixed-fee, read-only forensic review of an Amazon or e-commerce seller’s QuickBooks file — finds forced reconciliations, settlement mis-attribution, concealment structures, and corrections that balance but don’t tie, then delivers a written verdict (clean / neglected / poisoned foundation) and a fixed cleanup quote. Credited 100% toward the cleanup if engaged within 30 days. Nothing in the file is changed during the diagnosis.',
+    text: '$495 fixed-fee, read-only forensic review of an Amazon or e-commerce seller’s QuickBooks file — finds forced reconciliations, settlement mis-attribution, concealment structures, and corrections that balance but don’t tie, then delivers a written verdict (clean / neglected / poisoned foundation) and a fixed cleanup quote. Credited 100% toward the cleanup if engaged within 30 days of your report. Nothing in the file is changed during the diagnosis.',
   },
   {
     name: 'Get Help With Your Books',

@@ -5,7 +5,7 @@ const PAGE_URL = `${siteConfig.url}/foundation-diagnosis/`
 const OG_IMAGE = '/og/foundation-diagnosis.png'
 const INFOGRAPHIC = '/images/foundation-diagnosis-three-signs.png'
 const INFOGRAPHIC_ALT =
-  'Infographic — three signs an Amazon seller’s QuickBooks needs a forensic look: Reconciliation Discrepancies isn’t exactly $0; Opening Balance Equity never cleared; a “cleared” plug dated at a statement’s closing date. Foundation Diagnosis: $495, read-only, credited 100% toward cleanup within 30 days.'
+  'Infographic — three signs an Amazon seller’s QuickBooks needs a forensic look: Reconciliation Discrepancies isn’t exactly $0; Opening Balance Equity never cleared; a “cleared” plug dated at a statement’s closing date. Foundation Diagnosis: $495, read-only, credited 100% toward cleanup within 30 days of your report.'
 
 export const metadata = {
   title: { absolute: 'Foundation Diagnosis — Forensic QuickBooks Review for Sellers' },
@@ -17,13 +17,13 @@ export const metadata = {
     url: PAGE_URL,
     title: 'Your books balance. That doesn’t mean they’re clean. — Foundation Diagnosis',
     description:
-      'A $495 fixed-fee, read-only forensic review of your QuickBooks file. Credited 100% toward the cleanup if you engage within 30 days.',
+      'A $495 fixed-fee, read-only forensic review of your QuickBooks file. Credited 100% toward the cleanup if you engage within 30 days of your report.',
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Foundation Diagnosis — Your books balance. That doesn’t mean they’re clean.' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Your books balance. That doesn’t mean they’re clean.',
-    description: 'A $495 read-only forensic review of your QuickBooks — credited 100% toward cleanup within 30 days.',
+    description: 'A $495 read-only forensic review of your QuickBooks — credited 100% toward cleanup within 30 days of your report.',
     images: [OG_IMAGE],
   },
 }
@@ -85,12 +85,16 @@ const faqs = [
     a: 'Then the report says clean, and the cleanup quote reflects it. The diagnosis is a fixed fee for the search, not a sales script — we’re paid the same whether the verdict is clean or poisoned, which is exactly why you can trust the verdict.',
   },
   {
+    q: 'What if my books are too far gone to be worth it?',
+    a: 'No file is beyond diagnosis. The fixed $495 is what makes that true — it prices the search itself, so any file can be looked at honestly no matter what shape it is in. And the messier the file, the more the diagnosis is worth to you, because a blind cleanup quote on a bad file is exactly the quote that goes wrong. The only situation we cannot take on is being asked to record something that isn’t true.',
+  },
+  {
     q: 'Do I have to connect my QuickBooks to an app?',
     a: 'No. You either add us as a read-only accountant user in QuickBooks (reports only — we don’t ask for write access), or you send exports: Amazon settlement files, bank statements, and reports. No software connects to your file at any point.',
   },
   {
     q: 'What exactly do I get for $495?',
-    a: 'A written Foundation Diagnosis Report: a verdict (clean, neglected, or poisoned foundation), every finding in plain English with the evidence behind it, a map of how complex the fix actually is, an honest list of anything we couldn’t verify from the access granted, and a fixed-price cleanup quote scoped to what’s really there. The full $495 credits toward the cleanup if you engage within 30 days.',
+    a: 'A written Foundation Diagnosis Report: a verdict (clean, neglected, or poisoned foundation), every finding in plain English with the evidence behind it, a map of how complex the fix actually is, an honest list of anything we couldn’t verify from the access granted, and a fixed-price cleanup quote scoped to what’s really there. The full $495 credits toward the cleanup if you engage within 30 days of your report.',
   },
   {
     q: 'Why not just quote the cleanup directly?',
@@ -174,7 +178,7 @@ export default function FoundationDiagnosis() {
               Not sure yet? Start at /get-help
             </TrackedLink>
           </div>
-          <p className="text-white/40 text-xs mt-6">$495, fixed · read-only · credited 100% toward your cleanup if you engage within 30 days</p>
+          <p className="text-white/40 text-xs mt-6">$495, fixed · read-only · credited 100% toward your cleanup if you engage within 30 days of your report</p>
         </div>
       </section>
 
@@ -186,6 +190,7 @@ export default function FoundationDiagnosis() {
           <p>A forced reconciliation shows up as a clean checkmark. A bad &ldquo;correction&rdquo; balances perfectly — debits equal credits, so nothing flags it. Amazon settlements get tied to the wrong deposits and every month still foots. None of it throws an error. You find out when your CPA says the file isn&rsquo;t fit to file, or when the numbers you&rsquo;re making decisions on turn out to be someone&rsquo;s plug.</p>
           <p>Fixing that kind of mess costs three times: finding the damage (nothing points to it), unwinding it safely, and re-verifying everything downstream — because once one prior correction is wrong, you can&rsquo;t trust any of them.</p>
           <p>That&rsquo;s why cleanups priced off a transaction count go wrong. <strong className="text-navy">You can&rsquo;t count what nobody has found yet.</strong></p>
+          <p>The diagnosis is the cheapest way to find out now: a fixed fee, read-only, and nothing in your file changes until you&rsquo;ve seen every finding priced.</p>
         </div>
       </section>
 
@@ -243,7 +248,7 @@ export default function FoundationDiagnosis() {
           <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Proof</p>
           <h2 className="font-display font-bold text-3xl text-navy mb-6">The standard the diagnosis is built from</h2>
           <div className="space-y-5 text-[#444] leading-[1.8]">
-            <p>Recent engagement, anonymized: a five-marketplace Amazon seller (US, Canada, Mexico, Brazil, plus eBay) whose books needed full reconstruction. We rebuilt the entire settlement spine from the raw Amazon settlement files, closed a full calendar year of bank reconciliations to the penny, found a five-figure discrepancy hidden in a clearing account — and instead of plugging it to make it disappear, quarantined and documented it so the rebuilt books stayed clean and auditable.</p>
+            <p>Recent engagement, anonymized: a multi-marketplace Amazon seller (US, Canada, Mexico, Brazil, plus eBay) whose books needed full reconstruction. We rebuilt the entire settlement spine from the raw Amazon settlement files, closed a full calendar year of bank reconciliations to the penny, found a five-figure discrepancy hidden in a clearing account — and instead of plugging it to make it disappear, quarantined and documented it so the rebuilt books stayed clean and auditable.</p>
             <p>That&rsquo;s the standard the diagnosis is built from.</p>
           </div>
           <div className="mt-8 rounded-xl bg-cream border border-gray-100 p-6">
@@ -261,7 +266,7 @@ export default function FoundationDiagnosis() {
           <div className="font-display font-extrabold text-5xl mb-2">$495<span className="text-2xl font-bold text-white/60">, fixed</span></div>
           <p className="text-white/60 mb-6">No hourly meter, no scope creep.</p>
           <p className="text-white/80 leading-relaxed max-w-xl mx-auto mb-4">
-            <strong className="text-white">Credited 100% toward your cleanup</strong> if you engage within 30 days — so if the books need work and you hire us to do it, the diagnosis costs you nothing extra.
+            <strong className="text-white">Credited 100% toward your cleanup</strong> if you engage within 30 days of your report — so if the books need work and you hire us to do it, the diagnosis costs you nothing extra.
           </p>
           <p className="text-white/60 text-sm leading-relaxed max-w-xl mx-auto mb-8">
             And if your books turn out to be fine? The report says so, and the quote reflects it. We&rsquo;re paid for the search either way — which is exactly why the answer is honest.
