@@ -54,7 +54,7 @@ export default function FBABookkeepingSystem() {
       <div className="blog-content">
         <p><strong>Amazon FBA bookkeeping is different from every other kind of small-business bookkeeping because Amazon pays you in settlements, not sales.</strong> Every two weeks (roughly), Amazon deposits a net number that bundles your sales, fees, refunds, and reserve movements into a single line on your bank statement. Getting FBA books right means decomposing every one of those deposits back into its parts — and most sellers, and frankly most bookkeepers, never do.</p>
 
-        <p><em>Written by Arnold Dizon, QuickBooks Online ProAdvisor and IRS PTIN holder.</em></p>
+        <p><em>Written by Arnold Dizon, IRS PTIN holder and QuickBooks Online ProAdvisor.</em></p>
 
         <h2>Why is Amazon FBA bookkeeping different from normal bookkeeping?</h2>
 
@@ -161,7 +161,7 @@ export default function FBABookkeepingSystem() {
           </div>
         ))}
 
-        <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon is a tax preparer who holds an IRS PTIN, QuickBooks Online ProAdvisor, and founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. For quarterly tax planning as a seller, see <a href="/quarterly-estimated-taxes/">How Much Should I Pay in Quarterly Estimated Taxes?</a> This article is general information only and not tax or accounting advice for your specific situation.</p>
+        <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon, a tax preparer who holds an IRS PTIN, is a QuickBooks Online ProAdvisor and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. For quarterly tax planning as a seller, see <a href="/quarterly-estimated-taxes/">How Much Should I Pay in Quarterly Estimated Taxes?</a> This article is general information only and not tax or accounting advice for your specific situation.</p>
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({

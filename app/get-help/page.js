@@ -102,7 +102,7 @@ export default function GetHelpPage() {
           </a>
         </div>
         <p className="mt-4 text-sm text-[#1a1a2e]/75">
-          Every reply is written by Arnold Dizon, QuickBooks Online ProAdvisor and IRS PTIN holder. There is no sales team and nothing automated decides what you&rsquo;re quoted.
+          Every reply is written by Arnold Dizon, IRS PTIN holder and QuickBooks Online ProAdvisor. There is no sales team and nothing automated decides what you&rsquo;re quoted.
         </p>
       </section>
 

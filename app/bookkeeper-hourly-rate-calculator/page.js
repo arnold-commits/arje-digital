@@ -85,7 +85,7 @@ export default function BookkeeperHourlyRateCalculator() {
         <p>Try it here: <a href="https://arjebookkeeping.gumroad.com/l/bookkeeper-capacity-calculator">Bookkeeper Capacity Calculator</a> ($19.99)</p>
         <p>For the full pricing + capacity + close system — templates, email flows, engagement letters — the <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle">Bookkeeper's Ultimate Bundle</a> ($197) packages 9 products together.</p>
         <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>
-          Arnold Dizon is a tax preparer who holds an IRS PTIN and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, NV. He manages 90+ active bookkeeping and tax clients solo with the help of Claude AI automation. More articles at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not pricing, legal, or tax advice. Consult your own advisors before making rate-setting decisions for your practice.
+          Arnold Dizon, a tax preparer who holds an IRS PTIN, is the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, NV. He manages 90+ active bookkeeping and tax clients solo with the help of Claude AI automation. More articles at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not pricing, legal, or tax advice. Consult your own advisors before making rate-setting decisions for your practice.
         </p>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({

@@ -66,7 +66,7 @@ const steps = [
   {
     n: '2',
     title: 'We run the forensic pass',
-    body: 'Every finding is reviewed and signed by a tax preparer who holds an IRS PTIN before you see it — nothing automated ever reports a finding or a price to you.',
+    body: 'Every finding is reviewed and signed before you see it, by a tax preparer who holds an IRS PTIN — nothing automated ever reports a finding or a price to you.',
   },
   {
     n: '3',
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: 'Who reviews the findings?',
-    a: 'Every finding is reviewed and signed by Arnold Dizon, a tax preparer with an IRS PTIN and QuickBooks Online ProAdvisor, before it reaches you. Nothing automated communicates a finding or a price to a client — that human gate is part of the product.',
+    a: 'Every finding is reviewed and signed by Arnold Dizon, a tax preparer who holds an IRS PTIN and is a QuickBooks Online ProAdvisor, before it reaches you. Nothing automated communicates a finding or a price to a client — that human gate is part of the product.',
   },
   {
     q: 'How long does it take?',
