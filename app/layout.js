@@ -58,7 +58,7 @@ const siteLd = {
       '@type': 'Person',
       '@id': PERSON_ID,
       name: 'Arnold Dizon',
-      jobTitle: 'PTIN-certified tax professional · QuickBooks Online ProAdvisor',
+      jobTitle: 'Tax preparer · IRS PTIN holder · QuickBooks Online ProAdvisor',
       worksFor: { '@id': ORG_ID },
       url: `${siteConfig.url}/about/`,
       sameAs: [siteConfig.social.linkedin, siteConfig.social.twitter, siteConfig.social.amazonAuthor],

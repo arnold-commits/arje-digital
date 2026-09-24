@@ -47,7 +47,7 @@ export async function GET() {
     '',
     '> Forensic Amazon FBA and eBay bookkeeping, cleanup, and tax services for',
     '> e-commerce sellers, plus digital templates and SaaS tools for bookkeepers',
-    '> and tax preparers. Founder: Arnold Dizon, PTIN-certified tax professional',
+    '> and tax preparers. Founder: Arnold Dizon, IRS PTIN holder',
     '> and QuickBooks Online ProAdvisor. Henderson, Nevada.',
     '',
     '## Services',

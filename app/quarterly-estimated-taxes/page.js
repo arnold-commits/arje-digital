@@ -17,7 +17,7 @@ export default function QuarterlyEstimatedTaxes() {
       <div className="blog-content">
         <p><strong>TL;DR:</strong> Most self-employed workers should pay at least 25% of their net earnings each quarter to the IRS — split between federal income tax (around 12-22% depending on bracket) and self-employment tax (15.3% on net earnings up to the Social Security wage base, which is $184,500 for 2026). If you paid federal taxes last year, the safe harbor rule lets you avoid penalties by paying either 100% of last year's tax liability (110% if your AGI was over $150,000) or 90% of this year's expected liability, whichever is smaller. Use last year's Form 1040 Line 24 as your anchor number.</p>
 
-        <p><em>Written by Arnold Dizon, PTIN-certified tax professional. ARJE Bookkeeping &amp; Tax Services runs 90+ client returns annually.</em></p>
+        <p><em>Written by Arnold Dizon, IRS PTIN holder. ARJE Bookkeeping &amp; Tax Services runs 90+ client returns annually.</em></p>
 
         <h2>What Are Quarterly Estimated Taxes?</h2>
 
@@ -149,7 +149,7 @@ export default function QuarterlyEstimatedTaxes() {
 
         <p>And if the problem is upstream — books that can’t produce a trustworthy net-profit number in the first place — start with the <TrackedLink href="/foundation-diagnosis" event="diagnosis_cta_click" data={{ placement: 'quarterly_taxes' }}>Foundation Diagnosis</TrackedLink>: a $495 fixed-fee, read-only forensic pass over your QuickBooks, credited 100% toward the cleanup if you engage within 30 days of your report. Not sure that’s the right first step? <a href="/get-help/">Tell us where your books stand</a> and we’ll point you to it.</p>
 
-        <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon is a PTIN-certified tax professional and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs 90+ client returns annually and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not tax advice for your specific situation — consult a qualified tax professional for decisions involving your finances.</p>
+        <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon, a tax preparer who holds an IRS PTIN, is the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs 90+ client returns annually and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not tax advice for your specific situation — consult a qualified tax professional for decisions involving your finances.</p>
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({

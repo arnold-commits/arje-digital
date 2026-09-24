@@ -102,7 +102,7 @@ export default function GetHelpPage() {
           </a>
         </div>
         <p className="mt-4 text-sm text-[#1a1a2e]/75">
-          Every reply is written by Arnold Dizon, PTIN-certified tax preparer and QuickBooks Online ProAdvisor. There is no sales team and nothing automated decides what you&rsquo;re quoted.
+          Every reply is written by Arnold Dizon, IRS PTIN holder and QuickBooks Online ProAdvisor. There is no sales team and nothing automated decides what you&rsquo;re quoted.
         </p>
       </section>
 
@@ -127,7 +127,7 @@ export default function GetHelpPage() {
         <div className="mt-8 text-center text-sm text-[#1a1a2e]/75">
           <p>
             ARJE Bookkeeping &amp; Tax Services · Henderson, NV ·
-            PTIN-certified · arnold@arjebookkeeping.com
+            IRS PTIN holder · arnold@arjebookkeeping.com
           </p>
         </div>
       </section>
