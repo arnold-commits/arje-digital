@@ -181,7 +181,7 @@ export default function ProductPage({ params }) {
       <div className="bg-white rounded-xl p-8 border border-gray-100 mb-8">
         <h2 className="font-display font-bold text-xl text-navy mb-3">Built by a practitioner</h2>
         <p className="text-gray-500 leading-relaxed text-sm mb-3">
-          ARJE Digital is built by Arnold Dizon — a PTIN-certified tax professional running a 90+ client practice. Every tool ships with practitioner-grade precision because Arnold uses them every day on real client work.
+          ARJE Digital is built by Arnold Dizon — a tax preparer who holds an IRS PTIN and runs a 90+ client practice. Every tool ships with practitioner-grade precision because Arnold uses them every day on real client work.
         </p>
         <p className="text-xs text-gray-500">
           Questions? Email <a href={`mailto:${siteConfig.email}`} className="text-teal hover:underline">{siteConfig.email}</a>

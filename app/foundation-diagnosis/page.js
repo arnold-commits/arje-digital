@@ -66,7 +66,7 @@ const steps = [
   {
     n: '2',
     title: 'We run the forensic pass',
-    body: 'Every finding is reviewed and signed by a PTIN-certified practitioner before you see it — nothing automated ever reports a finding or a price to you.',
+    body: 'Every finding is reviewed and signed by a tax preparer who holds an IRS PTIN before you see it — nothing automated ever reports a finding or a price to you.',
   },
   {
     n: '3',
@@ -102,7 +102,7 @@ const faqs = [
   },
   {
     q: 'Who reviews the findings?',
-    a: 'Every finding is reviewed and signed by Arnold Dizon, a PTIN-certified tax practitioner and QuickBooks Online ProAdvisor, before it reaches you. Nothing automated communicates a finding or a price to a client — that human gate is part of the product.',
+    a: 'Every finding is reviewed and signed by Arnold Dizon, a tax preparer with an IRS PTIN and QuickBooks Online ProAdvisor, before it reaches you. Nothing automated communicates a finding or a price to a client — that human gate is part of the product.',
   },
   {
     q: 'How long does it take?',
@@ -253,7 +253,7 @@ export default function FoundationDiagnosis() {
           </div>
           <div className="mt-8 rounded-xl bg-cream border border-gray-100 p-6">
             <p className="text-sm text-gray-500 leading-relaxed">
-              <strong className="text-navy">Credentials:</strong> Arnold Dizon — PTIN-certified tax practitioner · QuickBooks Online ProAdvisor. QBO-native and tool-independent: we reconstruct settlements directly in QuickBooks, so we can fix books that were never set up on a connector.
+              <strong className="text-navy">Credentials:</strong> Arnold Dizon — IRS PTIN holder · QuickBooks Online ProAdvisor. QBO-native and tool-independent: we reconstruct settlements directly in QuickBooks, so we can fix books that were never set up on a connector.
             </p>
           </div>
         </div>

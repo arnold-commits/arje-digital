@@ -20,7 +20,7 @@ export default function AboutPage() {
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-teal to-gold flex items-center justify-center text-white font-display font-bold text-xl">AD</div>
             <div>
               <h2 className="font-display font-bold text-xl text-navy">Arnold Dizon</h2>
-              <p className="text-teal text-sm font-medium">Founder & PTIN-Certified Tax Professional</p>
+              <p className="text-teal text-sm font-medium">Founder & Tax Preparer · IRS PTIN Holder</p>
             </div>
           </div>
           <p className="text-gray-600 leading-relaxed mb-3">

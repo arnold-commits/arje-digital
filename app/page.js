@@ -12,7 +12,7 @@ export default function Home() {
         <div className="absolute bottom-[-60px] left-[-40px] w-60 h-60 rounded-full" style={{ background: 'radial-gradient(circle, rgba(233,196,106,0.12) 0%, transparent 70%)' }} />
         
         <div className="max-w-3xl mx-auto px-5 py-24 text-center relative">
-          <p className="animate-fade-up stagger-1 text-gold text-xs font-bold tracking-[3px] uppercase mb-5">PTIN-Certified Tax Professional · Henderson, NV</p>
+          <p className="animate-fade-up stagger-1 text-gold text-xs font-bold tracking-[3px] uppercase mb-5">Tax Preparer · IRS PTIN Holder · Henderson, NV</p>
           <h1 className="animate-fade-up stagger-2 font-display font-extrabold text-white text-4xl sm:text-5xl md:text-6xl leading-[1.1] mb-6">
             Stop drowning in<br />paperwork.{' '}
             <span className="gradient-text">Start scaling.</span>
@@ -89,7 +89,7 @@ export default function Home() {
         <h2 className="font-display font-bold text-3xl text-navy mb-10 text-center">Three audiences, one mission</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { title: 'Amazon FBA Sellers', desc: 'Forensic cleanup, settlement reconciliation to the cent, and quarterly tax estimates — from a PTIN-certified pro.', icon: '📦', href: '/fba-bookkeeping-system' },
+            { title: 'Amazon FBA Sellers', desc: 'Forensic cleanup, settlement reconciliation to the cent, and quarterly tax estimates — from a tax pro who holds an IRS PTIN.', icon: '📦', href: '/fba-bookkeeping-system' },
             { title: 'Bookkeepers & CPAs', desc: 'Automate client onboarding, standardize workflows, and scale to 50+ clients without hiring staff.', icon: '📊' },
             { title: 'Tax Preparers', desc: 'Streamline intake, track documents, and eliminate the manual chase every tax season.', icon: '📋' },
           ].map(item => {

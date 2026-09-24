@@ -94,7 +94,7 @@ export default function Bookkeeping() {
         <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Who I Am</p>
         <h2 className="font-display font-bold text-3xl text-navy mb-6">A practitioner, not a sales funnel</h2>
         <div className="space-y-4 text-gray-600 leading-relaxed">
-          <p>I'm Arnold Dizon, a PTIN-certified tax professional in Henderson with 90+ active tax clients since 2021.</p>
+          <p>I'm Arnold Dizon, a tax preparer who holds an IRS PTIN in Henderson with 90+ active tax clients since 2021.</p>
           <p>I'm launching a small bookkeeping practice alongside the tax work. The first 10 clients get a founding rate that won't be offered again, and they get me directly — not a junior, not a virtual assistant offshore.</p>
           <p>If you've been doing your own books in QuickBooks or piecing it together in spreadsheets, this is built for you.</p>
         </div>

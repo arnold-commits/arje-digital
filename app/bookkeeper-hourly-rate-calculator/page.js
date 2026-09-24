@@ -13,7 +13,7 @@ export default function BookkeeperHourlyRateCalculator() {
       </header>
       <div className="blog-content">
         <p><strong>TL;DR:</strong> Solo bookkeepers in the US should charge $60–$150/hr depending on experience, certifications, and client complexity — but hourly pricing is almost always the wrong model. Fixed monthly fees ($300–$800/client for small service businesses; $600–$2,000 for e-commerce or multi-entity) scale better, protect your margin, and let you hit six figures without working 60-hour weeks. The fastest way to figure out your number: calculate your real hourly capacity first, then reverse-engineer the monthly fee. Anchor to value delivered, not hours spent.</p>
-        <p><em>Written by Arnold Dizon, PTIN-certified tax professional. ARJE Bookkeeping &amp; Tax Services manages 90+ active clients solo with Claude-based automation.</em></p>
+        <p><em>Written by Arnold Dizon, IRS PTIN holder. ARJE Bookkeeping &amp; Tax Services manages 90+ active clients solo with Claude-based automation.</em></p>
         <h2>Why Hourly Pricing Fails Solo Bookkeepers</h2>
         <p>Hourly pricing sounds fair. Bill for what you work. Simple.</p>
         <p>It's also the reason most solo bookkeepers cap out around 12–15 clients, burn out, and can't scale past $80K/year. Here's why:</p>
@@ -85,7 +85,7 @@ export default function BookkeeperHourlyRateCalculator() {
         <p>Try it here: <a href="https://arjebookkeeping.gumroad.com/l/bookkeeper-capacity-calculator">Bookkeeper Capacity Calculator</a> ($19.99)</p>
         <p>For the full pricing + capacity + close system — templates, email flows, engagement letters — the <a href="https://arjebookkeeping.gumroad.com/l/ultimate-bundle">Bookkeeper's Ultimate Bundle</a> ($197) packages 9 products together.</p>
         <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>
-          Arnold Dizon is a PTIN-certified tax professional and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, NV. He manages 90+ active bookkeeping and tax clients solo with the help of Claude AI automation. More articles at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not pricing, legal, or tax advice. Consult your own advisors before making rate-setting decisions for your practice.
+          Arnold Dizon is a tax preparer who holds an IRS PTIN and the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, NV. He manages 90+ active bookkeeping and tax clients solo with the help of Claude AI automation. More articles at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not pricing, legal, or tax advice. Consult your own advisors before making rate-setting decisions for your practice.
         </p>
       </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
