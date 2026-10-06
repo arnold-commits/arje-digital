@@ -9,8 +9,8 @@ export const metadata = {
 export default function ThanksHelpPage() {
   const steps = [
     'Within 24 business hours, Arnold reviews your submission.',
-    "You'll receive one of three responses: a custom quote, a tier recommendation, or a calendar link to discuss further.",
-    'If anything\u2019s urgent, reply to the autoresponder email or call/text (702) 583-7037.',
+    "You'll receive one of three responses by email: a custom quote, a tier recommendation, or a few follow-up questions.",
+    'If anything\u2019s urgent, reply to the autoresponder email or text (702) 850-6401.',
   ]
 
   return (
