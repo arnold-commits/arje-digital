@@ -142,9 +142,11 @@ export default function ProductPage({ params }) {
               </a>
             )}
           </div>
-          <p className="text-xs text-gray-500 mt-4 text-center">
-            Available on both platforms — pick whichever you prefer.
-          </p>
+          {product.etsyUrl && product.gumroadUrl && (
+            <p className="text-xs text-gray-500 mt-4 text-center">
+              Available on both platforms — pick whichever you prefer.
+            </p>
+          )}
         </div>
       </div>
       {/* What's Included */}
