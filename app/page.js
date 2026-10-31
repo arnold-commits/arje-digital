@@ -53,7 +53,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-5 py-20">
         <p className="text-teal text-xs font-bold tracking-[3px] uppercase mb-3">Featured Products</p>
         <h2 className="font-display font-bold text-3xl text-navy mb-2">Built by a practitioner, for practitioners</h2>
-        <p className="text-gray-500 mb-10 max-w-lg">Every template and automation tested on real clients in a real 90+ client practice.</p>
+        <p className="text-gray-500 mb-10 max-w-lg">Every template and automation tested on real client work in a working tax and bookkeeping practice.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {products.slice(0, 3).map(p => (
