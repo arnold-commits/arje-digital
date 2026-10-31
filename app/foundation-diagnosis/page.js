@@ -10,20 +10,20 @@ const INFOGRAPHIC_ALT =
 export const metadata = {
   title: { absolute: 'Foundation Diagnosis — Forensic QuickBooks Review for Sellers' },
   description:
-    'A $495 read-only forensic pass over your QuickBooks file, for Amazon sellers whose books balance but don’t add up. Credited in full toward the cleanup.',
+    'A $495 read-only forensic pass over your QuickBooks file, for Amazon sellers whose books balance but don’t add up. Credited in full toward your cleanup or monthly bookkeeping.',
   alternates: { canonical: '/foundation-diagnosis/' },
   openGraph: {
     type: 'website',
     url: PAGE_URL,
     title: 'Your books balance. That doesn’t mean they’re clean. — Foundation Diagnosis',
     description:
-      'A $495 fixed-fee, read-only forensic review of your QuickBooks file. Credited 100% toward the cleanup if you engage within 30 days of your report.',
+      'A $495 fixed-fee, read-only forensic review of your QuickBooks file. Credited 100% toward your cleanup or monthly bookkeeping if you engage within 30 days of your report.',
     images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Foundation Diagnosis — Your books balance. That doesn’t mean they’re clean.' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Your books balance. That doesn’t mean they’re clean.',
-    description: 'A $495 read-only forensic review of your QuickBooks — credited 100% toward cleanup within 30 days of your report.',
+    description: 'A $495 read-only forensic review of your QuickBooks — credited 100% toward cleanup or monthly bookkeeping within 30 days of your report.',
     images: [OG_IMAGE],
   },
 }
@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     q: 'What if my books are actually fine?',
-    a: 'Then the report says clean, and the cleanup quote reflects it. The diagnosis is a fixed fee for the search, not a sales script — we’re paid the same whether the verdict is clean or poisoned, which is exactly why you can trust the verdict.',
+    a: 'Then the report says clean, and the cleanup quote reflects it. The diagnosis is a fixed fee for the search, not a sales script — we’re paid the same whether the verdict is clean or poisoned, which is exactly why you can trust the verdict. If you start monthly bookkeeping within 30 days of your report, the $495 credits toward that instead.',
   },
   {
     q: 'What if my books are too far gone to be worth it?',
@@ -94,7 +94,7 @@ const faqs = [
   },
   {
     q: 'What exactly do I get for $495?',
-    a: 'A written Foundation Diagnosis Report: a verdict (clean, neglected, or poisoned foundation), every finding in plain English with the evidence behind it, a map of how complex the fix actually is, an honest list of anything we couldn’t verify from the access granted, and a fixed-price cleanup quote scoped to what’s really there. The full $495 credits toward the cleanup if you engage within 30 days of your report.',
+    a: 'A written Foundation Diagnosis Report: a verdict (clean, neglected, or poisoned foundation), every finding in plain English with the evidence behind it, a map of how complex the fix actually is, an honest list of anything we couldn’t verify from the access granted, and a fixed-price cleanup quote scoped to what’s really there. The full $495 credits toward your cleanup or monthly bookkeeping if you engage within 30 days of your report.',
   },
   {
     q: 'Why not just quote the cleanup directly?',
@@ -130,7 +130,7 @@ const serviceLd = {
     price: 495,
     url: STRIPE_CHECKOUT,
     availability: 'https://schema.org/InStock',
-    description: 'Fixed fee, read-only. Credited 100% toward the cleanup if engaged within 30 days of report delivery.',
+    description: 'Fixed fee, read-only. Credited 100% toward the cleanup or monthly bookkeeping if engaged within 30 days of report delivery.',
   },
 }
 
@@ -178,7 +178,7 @@ export default function FoundationDiagnosis() {
               Not sure yet? Take the free Books Health Check
             </TrackedLink>
           </div>
-          <p className="text-white/40 text-xs mt-6">$495, fixed · read-only · credited 100% toward your cleanup if you engage within 30 days of your report</p>
+          <p className="text-white/40 text-xs mt-6">$495, fixed · read-only · credited 100% toward your cleanup or monthly bookkeeping if you engage within 30 days of your report</p>
         </div>
       </section>
 
@@ -266,10 +266,10 @@ export default function FoundationDiagnosis() {
           <div className="font-display font-extrabold text-5xl mb-2">$495<span className="text-2xl font-bold text-white/60">, fixed</span></div>
           <p className="text-white/60 mb-6">No hourly meter, no scope creep.</p>
           <p className="text-white/80 leading-relaxed max-w-xl mx-auto mb-4">
-            <strong className="text-white">Credited 100% toward your cleanup</strong> if you engage within 30 days of your report — so if the books need work and you hire us to do it, the diagnosis costs you nothing extra.
+            <strong className="text-white">Credited 100% toward your cleanup or monthly bookkeeping</strong> if you engage within 30 days of your report — so if you hire us to do the work, the diagnosis costs you nothing extra.
           </p>
           <p className="text-white/60 text-sm leading-relaxed max-w-xl mx-auto mb-8">
-            And if your books turn out to be fine? The report says so, and the quote reflects it. We&rsquo;re paid for the search either way — which is exactly why the answer is honest.
+            And if your books turn out to be fine? The report says so, and the $495 can credit toward monthly bookkeeping instead. We&rsquo;re paid for the search either way — which is exactly why the answer is honest.
           </p>
           <TrackedLink href={STRIPE_CHECKOUT} event="diagnosis_cta_click" data={{ placement: 'diagnosis_price' }} target="_blank" rel="noopener" className="inline-block px-10 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
             Start the diagnosis — $495

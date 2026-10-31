@@ -149,7 +149,7 @@ export default function FBABookkeepingSystem() {
 
         <div style={{ background: 'var(--cream)', border: '1px solid #e5e7eb', borderRadius: '12px', padding: '1.75rem 1.75rem 1.5rem', margin: '2.75rem 0' }}>
           <h3 style={{ marginTop: 0 }}>Think your books have this problem?</h3>
-          <p style={{ marginBottom: 0 }}>The <a href="/foundation-diagnosis/">Foundation Diagnosis</a> is the fixed-fee first step — $495, credited toward the cleanup. A read-only forensic pass that tells you exactly what’s wrong before anyone quotes the fix. <a href="/foundation-diagnosis/">Start the diagnosis →</a></p>
+          <p style={{ marginBottom: 0 }}>The <a href="/foundation-diagnosis/">Foundation Diagnosis</a> is the fixed-fee first step — $495, credited toward your cleanup or monthly bookkeeping. A read-only forensic pass that tells you exactly what’s wrong before anyone quotes the fix. <a href="/foundation-diagnosis/">Start the diagnosis →</a></p>
         </div>
 
         <h2>Frequently Asked Questions</h2>
