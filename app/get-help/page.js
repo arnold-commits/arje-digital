@@ -84,7 +84,7 @@ export default function GetHelpPage() {
             <p className="text-xs font-semibold uppercase tracking-wider text-[#1e7a6f]">Books behind, or &ldquo;fixed&rdquo; and still wrong</p>
             <p className="mt-2 font-semibold text-[#1a1a2e]">Foundation Diagnosis</p>
             <p className="mt-1 text-sm text-[#1a1a2e]/70">
-              $495, fixed. Read-only forensic pass over your QuickBooks, written verdict and a real cleanup quote in 5 business days. Credited 100% toward the cleanup within 30 days of your report.
+              $495, fixed. Read-only forensic pass over your QuickBooks, written verdict and a real cleanup quote in 5 business days. Credited 100% toward your cleanup or monthly bookkeeping within 30 days of your report.
             </p>
             <p className="mt-3 text-sm font-semibold text-[#1e7a6f]">Start the Foundation Diagnosis →</p>
           </TrackedLink>
