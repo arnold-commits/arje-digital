@@ -23,6 +23,7 @@ const staticRoutes = [
   { path: '/products/', lastModified: '2026-09-02', changeFrequency: 'weekly', priority: 0.9 },
   { path: '/get-help/', lastModified: '2026-09-01', changeFrequency: 'monthly', priority: 0.9 },
   { path: '/foundation-diagnosis/', lastModified: '2026-09-01', changeFrequency: 'monthly', priority: 0.9 },
+  { path: '/books-health-check/', lastModified: '2026-10-31', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/bookkeeping/', lastModified: '2026-09-01', changeFrequency: 'monthly', priority: 0.7 },
   { path: '/solo-cpa-client-capacity-calculator/', lastModified: '2026-05-05', changeFrequency: 'monthly', priority: 0.8 },
   { path: '/quarterly-estimated-taxes/', lastModified: '2026-09-01', changeFrequency: 'monthly', priority: 0.8 },

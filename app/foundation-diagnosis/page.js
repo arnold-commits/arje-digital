@@ -174,8 +174,8 @@ export default function FoundationDiagnosis() {
             <TrackedLink href={STRIPE_CHECKOUT} event="diagnosis_cta_click" data={{ placement: 'diagnosis_hero' }} target="_blank" rel="noopener" className="px-8 py-4 bg-teal text-white font-bold rounded-lg hover:bg-teal-dark transition-all text-sm tracking-wide">
               Start the diagnosis — $495
             </TrackedLink>
-            <TrackedLink href="/get-help" event="get_help_cta_click" data={{ placement: 'diagnosis_hero' }} className="px-8 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
-              Not sure yet? Start at /get-help
+            <TrackedLink href="/books-health-check" event="health_check_cta_click" data={{ placement: 'diagnosis_hero' }} className="px-8 py-4 bg-transparent text-white font-bold rounded-lg border-2 border-white/20 hover:border-white/50 hover:bg-white/5 transition-all text-sm tracking-wide">
+              Not sure yet? Take the free Books Health Check
             </TrackedLink>
           </div>
           <p className="text-white/40 text-xs mt-6">$495, fixed · read-only · credited 100% toward your cleanup if you engage within 30 days of your report</p>

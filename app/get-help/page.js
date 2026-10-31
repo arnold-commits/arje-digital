@@ -62,6 +62,18 @@ export default function GetHelpPage() {
         <h2 className="text-sm font-semibold uppercase tracking-wider text-[#1e7a6f]">
           The three ways this usually goes
         </h2>
+        <p className="mt-3 text-sm text-[#1a1a2e]/80">
+          On QuickBooks Online and not sure which fits?{" "}
+          <TrackedLink
+            href="/books-health-check"
+            event="health_check_cta_click"
+            data={{ placement: "get_help_routes" }}
+            className="font-semibold text-[#1e7a6f] underline"
+          >
+            Take the free Books Health Check
+          </TrackedLink>
+          .
+        </p>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <TrackedLink
             href="/foundation-diagnosis"
