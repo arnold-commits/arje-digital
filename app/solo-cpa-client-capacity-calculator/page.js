@@ -16,7 +16,7 @@ export default function SoloCPAClientCapacityCalculator() {
       <div className="blog-content">
         <p><strong>TL;DR:</strong> A solo CPA running monthly bookkeeping plus annual tax prep can sustainably handle 40-60 small business clients — most fall apart trying to push past 65. The right number depends on your service mix: bookkeeping-only practices stretch to 80-100 clients at $400-$600/month, while CPAs offering bookkeeping + advisory + tax prep cap closer to 35-45 clients at $1,500-$2,500/month average. The bottleneck flips between hours-constrained (under 30 clients) and delegation-quality-constrained (over 50 clients). Most solos hit a wall around year 3 because they keep saying yes to clients without doing the capacity math first.</p>
 
-        <p><em>Written by Arnold Dizon, IRS PTIN holder. ARJE Bookkeeping &amp; Tax Services runs 90+ client returns annually as a solo practice.</em></p>
+        <p><em>Written by Arnold Dizon, IRS PTIN holder. ARJE Bookkeeping &amp; Tax Services is a solo practice in Henderson, Nevada.</em></p>
 
         <h2>What "Capacity" Actually Means for a Solo CPA</h2>
         <p>When solo CPAs talk about capacity, they usually mean one number: how many clients before I burn out. That's not the right question.</p>
@@ -30,7 +30,7 @@ export default function SoloCPAClientCapacityCalculator() {
         <p>This article walks through how to calculate your real number using each layer, because the wrong answer costs you either revenue (under-shooting) or your weekends (over-shooting).</p>
 
         <h2>How to Calculate Your Real Capacity Number</h2>
-        <p>Here is the same five-step method I use when peers ask me how I'm running 90+ returns solo without losing my mind.</p>
+        <p>Here is the same five-step method I use when peers ask me how I'm running a practice solo without losing my mind.</p>
 
         <h3>Step 1: Audit your time per client by service tier</h3>
         <p>Not all clients consume the same hours. Track a representative month and bucket your clients into tiers:</p>
@@ -95,7 +95,7 @@ export default function SoloCPAClientCapacityCalculator() {
         <p>I raised rates 18% across my practice last year, lost three clients, and freed up 12 hours per month. Every solo CPA who has run the math will recognize that pattern.</p>
 
         <h2>Common Capacity Mistakes That Cost Real Money</h2>
-        <p>After running 90+ returns solo, here are the patterns I see in peers' practices.</p>
+        <p>Running a practice solo, here are the patterns I see in peers' practices.</p>
         <p><strong>Counting tax-season clients as full-year clients.</strong> A Tier C tax-prep client consumes 5-15 hours total per year, almost all in Q1. Counting them in your "active clients" number inflates your capacity perception. They're real revenue, but they are not capacity-equivalent to a monthly client.</p>
         <p><strong>Hiring the wrong kind of help first.</strong> A bookkeeper hire helps a bookkeeping-heavy practice. An admin/EA hire (calendar, intake, follow-ups) helps an advisory-heavy practice. Most solos hire the bookkeeper when the actual bottleneck is admin overhead.</p>
         <p><strong>Underpricing relative to brain-time per client.</strong> A $400/month client who emails you weekly with strategic questions is consuming Tier A brain-time at Tier B prices. Either reprice them or move them to async-only communication.</p>
@@ -124,7 +124,7 @@ export default function SoloCPAClientCapacityCalculator() {
         <p>It is the same tool I use internally when ARJE Bookkeeping evaluates whether to take on a new client or push existing ones to a new tier. $29, one-time purchase, no subscription. Also available on <a href="https://www.etsy.com/listing/4494612997/">Etsy</a> for users who prefer that platform.</p>
         <p>If you want to verify your real capacity before next tax season, that is what it is built for.</p>
 
-        <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon, a tax preparer who holds an IRS PTIN, is the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs 90+ client returns annually as a solo practice and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not advice for your specific practice — consult a qualified business advisor for decisions involving your firm.</p>
+        <p style={{fontSize: '14px', color: '#666', fontStyle: 'italic', marginTop: '2.5rem', borderTop: '1px solid #ddd', paddingTop: '1.25rem'}}>Arnold Dizon, a tax preparer who holds an IRS PTIN, is the founder of ARJE Bookkeeping &amp; Tax Services in Henderson, Nevada. He runs a solo practice and writes about practical tax operations at <a href="https://blog.arjebookkeeping.com">blog.arjebookkeeping.com</a>. This article is general information only and not advice for your specific practice — consult a qualified business advisor for decisions involving your firm.</p>
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({

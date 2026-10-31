@@ -24,7 +24,7 @@ export default function AboutPage() {
             </div>
           </div>
           <p className="text-gray-600 leading-relaxed mb-3">
-            Arnold manages over 90 active clients from Henderson, Nevada, specializing in Amazon FBA seller bookkeeping — one of the most complex niches in the accounting industry. Every template and automation in the ARJE Digital product catalog was built and tested in his own practice over three years.
+            Arnold runs his practice from Henderson, Nevada, specializing in Amazon FBA seller bookkeeping — one of the most complex niches in the accounting industry. Every template and automation in the ARJE Digital product catalog was built and tested in his own practice over three years.
           </p>
           <p className="text-gray-600 leading-relaxed mb-3">
             Beyond client work, Arnold is the author of 12+ published books on Amazon KDP including &ldquo;The Scrolls and the Algorithm,&rdquo; and builds SaaS tools for the accounting industry.
