@@ -5,7 +5,7 @@ const PAGE_URL = `${siteConfig.url}/foundation-diagnosis/`
 const OG_IMAGE = '/og/foundation-diagnosis.png'
 const INFOGRAPHIC = '/images/foundation-diagnosis-three-signs.png'
 const INFOGRAPHIC_ALT =
-  'Infographic — three signs an Amazon seller’s QuickBooks needs a forensic look: Reconciliation Discrepancies isn’t exactly $0; Opening Balance Equity never cleared; a “cleared” plug dated at a statement’s closing date. Foundation Diagnosis: $495, read-only, credited 100% toward cleanup within 30 days of your report.'
+  'Infographic — three signs an Amazon seller’s QuickBooks needs a forensic look: Reconciliation Discrepancies isn’t exactly $0; Opening Balance Equity never cleared; a “cleared” plug dated at a statement’s closing date. Foundation Diagnosis: $495, read-only, credited 100% toward cleanup or monthly bookkeeping within 30 days of your report.'
 
 export const metadata = {
   title: { absolute: 'Foundation Diagnosis — Forensic QuickBooks Review for Sellers' },
