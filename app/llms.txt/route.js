@@ -32,6 +32,7 @@ const GUIDES = [
   { name: 'How Much Should I Pay in Quarterly Estimated Taxes?', url: `${siteConfig.url}/quarterly-estimated-taxes/`, text: 'Quarterly estimated tax calculation, safe harbor rules, and 2026 deadlines for self-employed filers and Amazon sellers.' },
   { name: 'What Should I Charge as a Bookkeeper? 2026 Rate Guide', url: `${siteConfig.url}/bookkeeper-hourly-rate-calculator/`, text: 'Hourly vs fixed-fee pricing, 2026 rate benchmarks, and how to back into a monthly fee.' },
   { name: 'How Many Clients Can a Solo CPA Handle?', url: `${siteConfig.url}/solo-cpa-client-capacity-calculator/`, text: 'Capacity math by service tier, the cognitive ceiling, and when to hire vs raise rates.' },
+  { name: 'Free Books Health Check for Amazon and eBay Sellers', url: `${siteConfig.url}/books-health-check/`, text: 'Free self-check for sellers on QuickBooks Online: answer questions with QuickBooks open and see which warning signs show up in books that balance but may still be wrong. No login, no email; answers stay in the browser.' },
 ]
 
 function productLine(p) {
