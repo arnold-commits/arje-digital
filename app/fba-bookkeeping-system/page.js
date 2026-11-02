@@ -121,6 +121,8 @@ export default function FBABookkeepingSystem() {
 
         <p><strong>A2X and Link My Books</strong> are settlement connectors: they read Amazon’s settlement data and post summarized entries into QuickBooks or Xero. For a seller with clean books and a standard setup, they remove most of the manual translation work, and they’re worth their subscription. Their limits: they automate the posting, not the judgment — account mapping, COGS, reserve anomalies, and anything historical still needs a human — and they can’t fix books that were wrong before the connector arrived.</p>
 
+        <p>One trap to rule out once a connector is running: if the bank feed is also booking each Amazon payout as income, QuickBooks counts the same sales twice, and the bank reconciliation still ties. Four read-only tests for your own file are in <a href="https://blog.arjebookkeeping.com/amazon-sales-recorded-twice-quickbooks/">Amazon Sales Recorded Twice in QuickBooks: How to Check</a>.</p>
+
         <p><strong>Manual settlement journal entries</strong> in QuickBooks Online cost time instead of subscription fees and force you to understand your own numbers. For low settlement volume, or for any historical cleanup, manual is the only honest option — connectors don’t reach backward.</p>
 
         <p>My own position is tool-independent: I’m familiar with A2X-style settlement logic and don’t depend on any single connector — which is how I fix books that were never set up on one. Pick the tool that fits your volume; the method underneath is the same either way.</p>
