@@ -1,10 +1,10 @@
 // app/llms.txt/route.js — generates /llms.txt at build time.
 //
 // Replaces the hand-maintained public/llms.txt, which went stale (one blog post listed while
-// five newer ones existed). Sources of truth: siteConfig + products in lib/data.js, the static
+// five newer ones existed). Sources of truth: siteConfig, products, etsyProducts and books in lib/data.js, the static
 // guide/service list below, and the Ghost RSS feed. Regenerates on every deploy.
 
-import { siteConfig, products, etsyProducts } from '@/lib/data'
+import { siteConfig, products, etsyProducts, books } from '@/lib/data'
 import { getBlogPosts, BLOG_URL } from '@/lib/ghost'
 
 export const dynamic = 'force-static'
@@ -63,6 +63,9 @@ export async function GET() {
     '## Etsy Shop',
     `- [ARJEDigitalTools on Etsy](${siteConfig.social.etsy}): Instant-download spreadsheets and offline HTML tools from ARJE Digital.`,
     ...etsyProducts.map(productLine),
+    '',
+    '## Books',
+    ...books.map(productLine),
     '',
     '## Blog',
     `- [ARJE Blog](${BLOG_URL}): Practical tax and bookkeeping operations for e-commerce sellers and accounting professionals.`,
